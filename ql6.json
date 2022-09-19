@@ -88,7 +88,7 @@
 
 {"key": "push_agent","name":"🍭推送","type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext": "7bb5b24ca3274ad781a6071082e9eebd"},
 
-{"key":"t4public1","name":"🇹T4亚马逊云（聚合搜索）", "type":4,"api":"http://t4.ql765.top?sites=all","searchable":1,"quickSearch":1,"filterable":0},
+{"key":"t4public1","name":"🇹T4亚马逊云（聚合搜索）", "type":4,"api":"http://t4.ql765.top?sites=all&ali_token=7bb5b24ca3274ad781a6071082e9eebd&timeout=10","searchable":1,"quickSearch":1,"filterable":0},
 //{"key":"t4public","name":"T4公共（聚合搜索）", "type":4,"api":"https://t4.secan.icu/vod?sites=all","searchable":1,"quickSearch":1,"filterable":0},
 //{"key":"t4public2","name":"T4腾讯云（聚合搜索）", "type":4,"api":"https://service-1vzb88kv-1313517300.sh.apigw.tencentcs.com/release/vod?sites=all","searchable":1,"quickSearch":1,"filterable":0},
 
