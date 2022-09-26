@@ -1,6 +1,6 @@
 {
 //爬虫
-"spider":"https://qlql765.github.io/gg/0920.jar;md5;1DA89818EF2B56B00CF8397FB137C3B6",
+"spider":"https://qlql765.github.io/gg/gg0925.jar;md5;B273AC2E81F1326724494FFF3AD88634",
 
 // 直播
 // "lives": [{"group": "redirect","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vcWl4aXViYWlrZTE2My9tL3Jhdy9icmFuY2gvbWFpbi9tYW9saXZlLnR4dA=="]}]}],
@@ -51,6 +51,14 @@
 
 {"key":"3EDY",   "name":" 3️⃣3EDY ",         "type":3,"api":"csp_EEEDY",    "searchable":1,"quickSearch":1,"filterable":1},
 
+{"key":"293视频", "name":" 2⃣293视频 ",       "type":3,"api":"csp_SP293",    "searchable":1,"quickSearch":1,"filterable":1},
+
+{"key":"DiDuan",  "name":" 🌀低端影视 ",       "type":3,"api":"csp_Ddrk",     "searchable":1,"quickSearch":1,"filterable":0},
+
+{"key":"NianYing","name":" 🐮NBhut ",          "type":3,"api":"csp_Nianying","searchable":1,"quickSearch":1,"filterable":1},
+
+{"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",       "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
+
 {"key":"BBB",    "name":" 📺哔哩套餐（合集）","type":3,"api":"csp_Bili",     "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/bili.json"},
 
 {"key":"9E03",   "name":" 9️⃣9E03（解析）",  "type":3,"api":"csp_AppYsV2",  "searchable":1,"quickSearch":1,"filterable":1,"ext": "https://vod.9e03.com/lvdou_api.php/v1.vod"},
@@ -92,9 +100,10 @@
 {"name": "Json并发","type": 2,"url": "Parallel"}, 
 {"name": "Json轮询","type": 2,"url": "Sequence"}, 
 
-{"name": "GGTV自用","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiii&url="},
-{"name": "GGTV自用1","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=zhitigonggeixiaobai45678&url="},
-{"name": "GGTV自用2","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobai666&url="},
+{"name": "GGTV自用","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiiii&url="},
+{"name": "GGTV自用1","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobaiiii&url="},
+{"name": "GGTV自用2","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=zhitigonggeixiaobai45678&url="},
+{"name": "GGTV自用3","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=xiaobai666&url="},
 {"name": "GGTV聚合","type": 1,"url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe&url="},
 {"name": "GGTV聚合1","type": 1,"url": "https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
 {"name": "GGTV一般","type": 1,"url": "https://play.fuqizhishi.com/jx/API.php?appkey=zhitigonggeixiaobai4567891&url="}, 
