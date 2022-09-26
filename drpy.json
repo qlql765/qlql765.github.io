@@ -1,6 +1,6 @@
 {
  "wallpaper": "http://dr.ql765.top/pics",
- "dr_count": 41,
+ "dr_count": 42,
  "mode": 2,
  "spider": "https://qlql765.github.io/gg/0920.jar;md5;1DA89818EF2B56B00CF8397FB137C3B6",
  "homepage": "https://gitcode.net/qq_32394351/dr_py",
@@ -671,6 +671,15 @@
    "quickSearch": 0,
    "filterable": 0
   },
+   {
+   "key": "dr_百忙无果",
+   "name": "百忙无果(道长)",
+   "type": 1,
+   "api": "http://dr.ql765.top/vod?rule=百忙无果",
+   "searchable": 2,
+   "quickSearch": 0,
+   "filterable": 1
+  },
   {
    "key": "dr_玄天",
    "name": "玄天(道长)",
@@ -872,37 +881,7 @@
 
   
  ],
- "parses": [
-  {"name": "解析聚合","type": 3,"url": "Demo","ext": {
-    "flag": [
-     "qiyi",
-     "imgo",
-     "爱奇艺",
-     "奇艺",
-     "qq",
-     "腾讯",
-     "youku",
-     "优酷",
-     "pptv",
-     "PPTV",
-     "letv",
-     "乐视",
-     "leshi",
-     "bilibili",
-     "哔哩哔哩",
-     "哔哩",
-     "mgtv",
-     "芒果",
-     "sohu",
-     "xigua",
-     "fun",
-     "风行"
-    ],
-    "header": {
-     "User-Agent": "Mozilla/5.0"
-    }
-   }
-  },
+  "parses": [
   {
    "name": "🌐Ⓤ",
    "type": 0,
@@ -921,104 +900,18 @@
   },
   {
    "name": "轮询",
-   "url": "Sequence",
    "type": 2,
-   "ext": {
-    "flag": [
-     "qiyi",
-     "imgo",
-     "爱奇艺",
-     "奇艺",
-     "qq",
-     "腾讯",
-     "youku",
-     "优酷",
-     "pptv",
-     "PPTV",
-     "letv",
-     "乐视",
-     "leshi",
-     "bilibili",
-     "哔哩哔哩",
-     "哔哩",
-     "mgtv",
-     "芒果",
-     "sohu",
-     "xigua",
-     "fun",
-     "风行"
-    ],
-    "header": {
-     "User-Agent": "Mozilla/5.0"
-    }
+   "url": "Sequence",
+   "header": {
+    "User-Agent": "Mozilla/5.0"
    }
   },
   {
    "name": "并发",
-   "url": "Parallel",
    "type": 2,
-   "ext": {
-    "flag": [
-     "qiyi",
-     "imgo",
-     "爱奇艺",
-     "奇艺",
-     "qq",
-     "腾讯",
-     "youku",
-     "优酷",
-     "pptv",
-     "PPTV",
-     "letv",
-     "乐视",
-     "leshi",
-     "bilibili",
-     "哔哩哔哩",
-     "哔哩",
-     "mgtv",
-     "芒果",
-     "sohu",
-     "xigua",
-     "fun",
-     "风行"
-    ],
-    "header": {
-     "User-Agent": "Mozilla/5.0"
-    }
-   }
-  },
-  {
-   "name": "无名1",
-   "url": "http://dr.ql765.top/parse/api/无名.js?url=",
-   "type": 1,
-   "ext": {
-    "flag": [
-     "qiyi",
-     "imgo",
-     "爱奇艺",
-     "奇艺",
-     "qq",
-     "腾讯",
-     "youku",
-     "优酷",
-     "pptv",
-     "PPTV",
-     "letv",
-     "乐视",
-     "leshi",
-     "bilibili",
-     "哔哩哔哩",
-     "哔哩",
-     "mgtv",
-     "芒果",
-     "sohu",
-     "xigua",
-     "fun",
-     "风行"
-    ],
-    "header": {
-     "User-Agent": "Mozilla/5.0"
-    }
+   "url": "Parallel",
+   "header": {
+    "User-Agent": "Mozilla/5.0"
    }
   },
   {
@@ -1059,6 +952,142 @@
    "name": "168",
    "url": "http://dr.ql765.top/parse/api/168.js?url=",
    "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "无名",
+   "url": "http://dr.ql765.top/parse/api/无名.js?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "酷云",
+   "url": "http://dr.ql765.top/parse/api/酷云.js?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "鸿途",
+   "url": "http://dr.ql765.top/parse/api/鸿途.js?url=",
+   "type": 1,
+   "ext": {
+    "flag": [
+     "qiyi",
+     "imgo",
+     "爱奇艺",
+     "奇艺",
+     "qq",
+     "腾讯",
+     "youku",
+     "优酷",
+     "pptv",
+     "PPTV",
+     "letv",
+     "乐视",
+     "leshi",
+     "bilibili",
+     "哔哩哔哩",
+     "哔哩",
+     "mgtv",
+     "芒果",
+     "sohu",
+     "xigua",
+     "fun",
+     "风行"
+    ],
+    "header": {
+     "User-Agent": "Mozilla/5.0"
+    }
+   }
+  },
+  {
+   "name": "91",
+   "url": "http://91fanli.top/m3u8/?url=",
+   "type": 0,
    "ext": {
     "flag": [
      "qiyi",
@@ -1187,7 +1216,7 @@
      "风行"
     ],
     "header": {
-     "User-Agent": ""
+     "User-Agent": "Mozilla/5.0"
     }
    }
   },
