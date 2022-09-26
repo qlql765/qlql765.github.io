@@ -53,7 +53,7 @@
 
 {"key":"293视频", "name":" 2⃣293视频 ",       "type":3,"api":"csp_SP293",    "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"DiDuan",  "name":" 🌀低端影视 ",       "type":3,"api":"csp_Ddrk",     "searchable":1,"quickSearch":1,"filterable":0},
+{"key":"DiDuan",  "name":" 🌀低端影视 ",       "type":3,"api":"csp_Ddrk",    "searchable":1,"quickSearch":1,"filterable":0},
 
 {"key":"NianYing","name":" 🐮NBhut ",          "type":3,"api":"csp_Nianying","searchable":1,"quickSearch":1,"filterable":1},
 
