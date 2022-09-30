@@ -91,7 +91,10 @@
 
 {"key":"push",   "name":" 🍭推送 ",           "type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext": "3865f0ab8f124688ad786a262af9b940"},
 
-{"key":"t4vod",  "name":" 🇹T4亚马逊云（聚合搜索）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0}
+{"key":"t4vod",  "name":" 🇹T4亚马逊云（聚合搜索）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0},
+
+{"key":"kunyu77_js","name":"酷云77(js)","type":3,"api":"js_kunyu77","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://qlql765.github.io/js/kunyu77.js"}
+
 
 
 ],

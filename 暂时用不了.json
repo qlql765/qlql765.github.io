@@ -6,7 +6,7 @@
 {"key":"csp_Alist3","name":" 🅰Alist合集1","type":3,"api":"csp_Alist","searchable":0,"quickSearch":0,"filterable":0,"ext":"Qile$https://a.qlql765.repl.co#晴园$https://alist.52qy.repl.co","jar":"https://qlql765.github.io/jar/alist.jar;md5;285d80f6e19e2613ea305083f84bd95a"},
 {"key":"Alist","name":"🅰Alist合集","type":3,"api":"csp_Alist","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/Alist.json"}
 
-
+{"key":"豆瓣","name":"豆瓣(js)","api":"js_douban","type":3,"searchable":0,"quickSearch":0,"ext":"https://qlql765.github.io/js/douban.js"}
 
 /*暂时用不了的
 ,"jar":"https://qlql765.github.io/jar/pdr0831.jar"
