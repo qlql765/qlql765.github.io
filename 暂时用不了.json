@@ -9,6 +9,7 @@
 {"key":"豆瓣","name":"豆瓣(js)","api":"js_douban","type":3,"searchable":0,"quickSearch":0,"ext":"https://qlql765.github.io/js/douban.js"}
 
 /*暂时用不了的
+{"key":"293视频", "name":" 2⃣293视频 ",      "type":3,"api":"csp_SP293",    "searchable":1,"quickSearch":1,"filterable":1},
 ,"jar":"https://qlql765.github.io/jar/pdr0831.jar"
 ,"jar":"https://qlql765.github.io/jar/alist.jar;md5;285d80f6e19e2613ea305083f84bd95a"
 {"key":"csp_DiDuan","name":"🌀低端影视(SP)","api":"csp_Ddrk","type":3,"searchable":1,"quickSearch":1,"filterable":1},
