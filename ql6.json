@@ -59,6 +59,8 @@
 
 {"key":"BBB",    "name":" 📺哔哩套餐（合集）","type":3,"api":"csp_Bili",     "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/bili.json"},
 
+{"key":"csp_XYQBiu_凌云影视","name": "🍀凌云","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://qlql765.github.io/XYQxb/凌云影视.json"},
+
 {"key":"buka",   "name":"️不卡影院（xBPQ）",  "type": 3,"api": "csp_xBPQ",  "searchable":1,"quickSearch": 1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/buka.json"},
 
 {"key":"极品",    "name":"极品影视（xBPQ）",  "type":3,"api":"csp_xBPQ",     "searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/jpys.json"},
