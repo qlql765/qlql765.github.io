@@ -3,9 +3,6 @@
 "spider":"https://qlql765.github.io/sq/vob.jar;md5;5EDFC786FA411BC2C458B9433BD0AEAD",
 
 // 直播
-// "lives": [{"group": "redirect","channels": [{"name": "redirect","urls": ["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vcWl4aXViYWlrZTE2My9tL3Jhdy9icmFuY2gvbWFpbi9tYW9saXZlLnR4dA=="]}]}],
-//"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9naXRlYS5jb20vcWlhb2ppL2phci9yYXcvYnJhbmNoL21haW4vemIudHh0"]}]}],
-
 "lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9DYXQvdHYvbGl2ZS50eHQ="]}]}],
 
 //背景图片
