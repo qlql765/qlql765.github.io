@@ -15,7 +15,7 @@
 "sites":[ 
 {"key":"Kuaikan","name":" 🌹快    看 ", "type":3,"api":"csp_Kuaikan",  "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"Lezhu",  "name":" 🐖乐猪影视 ", "type":3,"api":"csp_Lezhu",    "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"Lezhu",  "name":" 🐖乐猪影视 ",  "type":3,"api":"csp_Lezhu",    "searchable":1,"quickSearch":1,"filterable":1},
  
 {"key":"CZSPP",  "name":" 🏭厂长资源 ", "type":3,"api":"csp_Czsapp",   "searchable":1,"quickSearch":1,"filterable":0},
 
@@ -23,60 +23,60 @@
 
 {"key":"Auete",  "name":" 🅰Auete影院", "type":3,"api":"csp_Auete",    "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"小苹果", "name":"  🍎小苹果 ",         "type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"小苹果", "name":"  🍎小苹果 ",   "type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"DDZY",   "name":" 😎多多资源 ", "type":1,"api": "https://www.ddzyz1.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"filterable": 0,"categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","其他剧","动漫"]},
+{"key":"DDZY",   "name":" 😎多多资源 ",  "type":1,"api": "https://www.ddzyz1.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"filterable": 0,"categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","其他剧","动漫"]},
 
 {"key":"教育",   "name":" 👼少儿教育（儿童）","type":3,"api":"csp_Bili",     "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/xue.json"},
 
-{"key":"csp_77", "name":" 🌈七 七 ",          "type":3,"api":"csp_Kunyu77",  "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_77", "name":" 🌈七 七 ",     "type":3,"api":"csp_Kunyu77",  "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"追剧喵", "name":" 🐈追剧喵 ",         "type":3,"api":"csp_ZJMiao",    "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"追剧喵", "name":" 🐈追剧喵 ",      "type":3,"api":"csp_ZJMiao",   "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"Mjxq",   "name":" 🗽美剧星球 ",       "type":3,"api":"csp_Mjxq",     "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"Mjxq",   "name":" 🗽美剧星球 ",   "type":3,"api":"csp_Mjxq",     "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"剧荒",   "name":" 🏝︎剧荒TV ",         "type":3,"api":"csp_Juhuang",   "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"剧荒",   "name":" 🏝︎剧荒TV ",      "type":3,"api":"csp_Juhuang",   "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"Anime1", "name":" 🍙日本动漫 ",       "type":3,"api":"csp_Anime1",   "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"Anime1", "name":" 🍙日本动漫 ",   "type":3,"api":"csp_Anime1",   "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"Bttoo",  "name":" 🇧󠁴󠁴两个BT ",         "type":3,"api":"csp_Bttoo",   "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"Bttoo",  "name":" 🇧󠁴󠁴两个BT ",      "type":3,"api":"csp_Bttoo",    "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"3EDY",   "name":" 3️⃣3EDY ",         "type":3,"api":"csp_EEEDY",    "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"3EDY",   "name":" 3️⃣3EDY ",       "type":3,"api":"csp_EEEDY",    "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"DiDuan",  "name":" 🌀低端影视 ",      "type":3,"api":"csp_Ddrk",     "searchable":1,"quickSearch":1,"filterable":0},
+{"key":"DiDuan",  "name":" 🌀低端影视 ",   "type":3,"api":"csp_Ddrk",     "searchable":1,"quickSearch":1,"filterable":0},
 
-{"key":"NianYing","name":" 🐮NBhut ",        "type":3,"api":"csp_Nianying", "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"NianYing","name":" 🐮NBhut ",     "type":3,"api":"csp_Nianying", "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",       "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",    "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"555电影","name":" ♷555影视 ",        "type":3,"api":"csp_Dy555",    "searchable":1,"quickSearch":1,"filterable":0},
+{"key":"555电影","name":" ♷555影视 ",      "type":3,"api":"csp_Dy555",    "searchable":1,"quickSearch":1,"filterable":0},
 
-{"key":"LibVio", "name":" 󠁌🇱LibVio ",         "type":3,"api":"csp_Lib",      "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"LibVio", "name":" 󠁌🇱LibVio ",       "type":3,"api":"csp_Lib",      "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"csp_SP293","name":"2️⃣293","type":3,"api":"csp_SP293","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_SP293","name":" 2️⃣293 ",        "type":3,"api":"csp_SP293",    "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"csp_Nmys","name":"🌾农民","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/sq/nmys.json"},
+{"key":"csp_Nmys","name":" 🌾农民 ",         "type":3,"api":"csp_Nmys",     "searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/sq/nmys.json"},
 
 {"key":"BBB",    "name":" 📺哔哩套餐（合集）","type":3,"api":"csp_Bili",     "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/bili.json"},
 
-{"key":"csp_XYQBiu_凌云影视","name": "🍀凌云┃XYQ","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://qlql765.github.io/XYQxb/凌云影视.json"},
-{"key":"csp_XYQBiu_万能影院","name": "🍀万能┃XYQ","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://qlql765.github.io/XYQxb/万能影院.json"},
-{"key":"csp_XYQBiu_大米星球","name":"🍀大米┃XYQ","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/XYQxb/大米星球.json"},
+{"key":"csp_XYQBiu_凌云影视","name": "🍀凌云┃XYQ", "type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://qlql765.github.io/XYQxb/凌云影视.json"},
+{"key":"csp_XYQBiu_万能影院","name": "🍀万能┃XYQ", "type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://qlql765.github.io/XYQxb/万能影院.json"},
+{"key":"csp_XYQBiu_大米星球","name":"🍀大米┃XYQ",  "type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://qlql765.github.io/XYQxb/大米星球.json"},
 
-{"key":"csp_xBPQ_工场","name":"🍀工场┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/影视工场.json"},	
-{"key":"csp_xBPQ_不卡","name":"🍀不卡┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/不卡.json"},
-{"key":"csp_xBPQ_98","name":"🍀98影┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/98影院.json"},
-{"key":"csp_xBPQ_极品","name":"🍀极品┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/极品.json"},	
-{"key":"csp_xBPQ_cs","name":"️🍀FREE┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/freeok.json"},
-{"key":"csp_xBPQ_巨人","name":"🍀巨人┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/巨人.json"},
-{"key":"csp_xBPQ_牛马","name":"🍀牛马┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/牛马影视.json"},
-{"key":"csp_xBPQ_皮皮","name":"🍀皮皮┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/皮皮泡.json"},	
+{"key":"csp_xBPQ_工场","name":"🍀工场┃xBPQ", "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/影视工场.json"},	
+{"key":"csp_xBPQ_不卡","name":"🍀不卡┃xBPQ", "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/不卡.json"},
+{"key":"csp_xBPQ_98","name":"🍀98影┃xBPQ",   "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/98影院.json"},
+{"key":"csp_xBPQ_极品","name":"🍀极品┃xBPQ",  "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/极品.json"},	
+{"key":"csp_xBPQ_cs","name":"️🍀FREE┃xBPQ",   "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/freeok.json"},
+{"key":"csp_xBPQ_巨人","name":"🍀巨人┃xBPQ",  "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/巨人.json"},
+{"key":"csp_xBPQ_牛马","name":"🍀牛马┃xBPQ",  "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/牛马影视.json"},
+{"key":"csp_xBPQ_皮皮","name":"🍀皮皮┃xBPQ",  "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/皮皮泡.json"},	
 {"key":"csp_xBPQ_瓜皮TV","name":"🍀瓜皮┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/瓜皮.json"},		
-{"key":"csp_xBPQ_子子","name":"🍀子子┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/子子影视.json"},
+{"key":"csp_xBPQ_子子","name":"🍀子子┃xBPQ",  "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/子子影视.json"},
 
 {"key":"SP360",  "name":" 3️⃣360(解析）",    "type":3,"api":"csp_SP360",    "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"csp_QQ", "name":" 🐧腾讯（解析）",    "type":3,"api":"csp_QQ",       "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"csp_QQ", "name":" 🐧腾讯（解析）",    "type":3,"api":"csp_QQ",      "searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"MGTV",   "name":" 🥭芒果（解析）",    "type":3,"api":"csp_MGTV",     "searchable":1,"quickSearch":1,"filterable":1},
 
@@ -97,14 +97,11 @@
 
 {"key":"Upyunso","name":" ☁️Up云搜 ",        "type":3,"api":"csp_Upyunso",  "searchable":1,"quickSearch":1,"filterable":1,"ext": "3865f0ab8f124688ad786a262af9b940"},
 
-{"key":"push",   "name":" 🍭推送 ",           "type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext": "3865f0ab8f124688ad786a262af9b940"},
+{"key":"push",   "name":" 🍭推送 ",          "type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext": "3865f0ab8f124688ad786a262af9b940"},
 
 {"key":"t4vod",  "name":" 🇹T4亚马逊云（聚合搜索）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0}
 
-
-
 ],
-
 
 
 //解析
