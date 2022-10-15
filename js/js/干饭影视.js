@@ -1,6 +1,6 @@
 var rule = {
     title:'干饭影视',
-    host:'https://www.gfysys1.com/',
+    host:'https://www.gfysys.com/',
     // homeUrl:'/',
     url:'/vodtype/fyclass-fypage.html',
     headers:{
