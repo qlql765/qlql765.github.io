@@ -13,8 +13,6 @@
 {"key":"Kuaikan","name":" 🌹快    看 ", "type":3,"api":"csp_Kuaikan",  "searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"Lezhu",  "name":" 🐖乐猪影视 ",  "type":3,"api":"csp_Lezhu",    "searchable":1,"quickSearch":1,"filterable":1},
- 
-{"key":"CZSPP",  "name":" 🏭厂长资源 ", "type":3,"api":"csp_Czsapp",   "searchable":1,"quickSearch":1,"filterable":0},
 
 {"key":"APPTT",  "name":" 📍图图影视 ", "type":3,"api":"csp_AppTT",    "searchable":1,"quickSearch":1,"filterable":0},
 
@@ -54,8 +52,6 @@
 
 {"key":"csp_Nmys","name":" 🌾农民 ",         "type":3,"api":"csp_Nmys",     "searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/sq/nmys.json"},
 
-{"key":"csp_Jianying","name":"✨简影┃SP","api":"csp_JianYing","type":3,"searchable":1,"quickSearch":1,"filterable":0,"ext": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7IklEIjo1MzE4LCJDcmVhdGVkQXQiOiIyMDIyLTAzLTE4VDE5OjI0OjM2LjkzOCswODowMCIsIlVwZGF0ZWRBdCI6IjIwMjItMDktMDVUMTA6NTY6MjguMDAzKzA4OjAwIiwiRGVsZXRlZEF0IjpudWxsLCJ1c2VyX2VtYWlsIjoiMzExMTI0ODcwMEBxcS5jb20iLCJ1c2VyX25hbWUiOiIiLCJ1c2VyX3B3ZCI6IiIsInVzZXJfaWQiOiJiOGIwNmU2ZS1jZjkwLTQ1NDItYmVjMS05NDk4OGVhMDE4NGIiLCJ1c2VyX2Fuc3dlciI6IiIsImxvY2tfaXMiOiJGYWxzZSIsImlzX3R2IjoiIiwiaXNfYWRtaW4iOiJGYWxzZSIsInJlZ190aW1lIjoiMjAyMi0wOS0wNVQxMDo1NjoyOC4wMDIrMDg6MDAiLCJyZWdfa2V5IjoiOTg4MTUxMzUiLCJ0dl90aW1lIjpudWxsLCJ0dl9rZXkiOiIifSwiZXhwIjoxNjYzMDI2NTAyLCJpc3MiOiJBbGZyZWRvIE1lbmRvemEifQ.m92i6og64WbwmCHYnI9CWL--Y1NwdMhvH4-Kn6FmPk8"},
-
 {"key":"在线之家","name":" 🏡在线之家",  "type":3,"api":"csp_Zxzj",     "searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"BBB",    "name":" 📺哔哩套餐（合集）","type":3,"api":"csp_Bili",     "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/bili.json"},
@@ -78,13 +74,6 @@
 {"key": "csp_xb_1080ys","name": "❤️1080影视┃R","type": 3,"api": "csp_XBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://1080p.tv/vodtype/2/id/{cateId}.html"},
 {"key": "csp_xb_qsp","name": "❤️氢视频┃R","type": 3,"api": "csp_XBiu","searchable": 1,"quickSearch": 1,"filterable":0,"ext": "http://h1080p.com/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html"},
 {"key": "csp_XBiu口袋影视","name": "❤️口袋影视┃R","type": 3,"api":"csp_XBiu","searchable": 1,"quickSearch": 1,"filterable":0,"ext": "http://www.koudaitv.com/type/{cateId}-{catePg}.html"},
-
-{"key": "drpy_js_007影视", "name": "007影视[DRPY]","type": 3,
-"api": "https://jihulab.com/qlql765/q/-/raw/master/js/drpy.js",
-"ext": "https://jihulab.com/qlql765/q/-/raw/master/js/js/007影视.js"},
-{"key": "drpy_js_大米星球","name": "大米星球[DRPY]","type": 3,
-"api": "https://jihulab.com/qlql765/q/-/raw/master/js/drpy.js",
-"ext": "https://jihulab.com/qlql765/q/-/raw/master/js/js/大米星球.js"},
 
 {"key":"SP360",  "name":" 3️⃣360(解析）",    "type":3,"api":"csp_SP360",    "searchable":1,"quickSearch":1,"filterable":1},
 
