@@ -10,21 +10,21 @@
 
 //站点
 "sites":[ 
-{"key":"XBiu_快看","name":"🌹快看┃XBiu","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "http://www.kuaikanys.net/s/{cateId}/page/{catePg}.html"},
+    {"key":"csp_77", "name":" 🌈七 七 ",     "type":3,"api":"csp_Kunyu77",  "searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"Lezhu",  "name":" 🐖乐猪影视 ",  "type":3,"api":"csp_Lezhu",    "searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"APPTT",  "name":" 📍图图影视 ", "type":3,"api":"csp_AppTT",    "searchable":1,"quickSearch":1,"filterable":0},
 
-{"key":"Auete",  "name":" 🅰Auete影院", "type":3,"api":"csp_Auete",    "searchable":1,"quickSearch":1,"filterable":1},
-
 {"key":"小苹果", "name":"  🍎小苹果 ",   "type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
+
+{"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",    "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"DDZY",   "name":" 😎多多资源 ",  "type":1,"api": "https://www.ddzyz1.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"filterable": 0,"categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","其他剧","动漫"]},
 
 {"key":"教育",   "name":" 👼少儿教育（儿童）","type":3,"api":"csp_Bili",     "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/xue.json"},
 
-{"key":"csp_77", "name":" 🌈七 七 ",     "type":3,"api":"csp_Kunyu77",  "searchable":1,"quickSearch":1,"filterable":1},
+{"key":"Auete",  "name":" 🅰Auete影院", "type":3,"api":"csp_Auete",    "searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"追剧喵", "name":" 🐈追剧喵 ",      "type":3,"api":"csp_ZJMiao",   "searchable":1,"quickSearch":1,"filterable":1},
 
@@ -41,8 +41,6 @@
 {"key":"DiDuan",  "name":" 🌀低端影视 ",   "type":3,"api":"csp_Ddrk",     "searchable":1,"quickSearch":1,"filterable":0},
 
 {"key":"NianYing","name":" 🐮NBhut ",     "type":3,"api":"csp_Nianying", "searchable":1,"quickSearch":1,"filterable":1},
-
-{"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",    "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"555电影","name":" ♷555影视 ",      "type":3,"api":"csp_Dy555",    "searchable":1,"quickSearch":1,"filterable":0},
 
@@ -71,6 +69,7 @@
 {"key":"csp_xBPQ_瓜皮TV","name":"🍀瓜皮┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/瓜皮.json"},		
 {"key":"csp_xBPQ_子子","name":"🍀子子┃xBPQ",  "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/子子影视.json"},
 
+{"key":"XBiu_快看","name":"🌹快看┃XBiu","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "http://www.kuaikanys.net/s/{cateId}/page/{catePg}.html"},
 {"key": "csp_xb_1080ys","name": "❤️1080影视┃XBiu","type": 3,"api": "csp_XBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://1080p.tv/vodtype/2/id/{cateId}.html"},
 {"key": "csp_xb_qsp","name": "❤️氢视频┃XBiu","type": 3,"api": "csp_XBiu","searchable": 1,"quickSearch": 1,"filterable":0,"ext": "http://h1080p.com/index.php/vod/show/id/{cateId}/page/{catePg}.html"},
 {"key": "csp_XBiu口袋影视","name": "❤️口袋影视┃XBiu","type": 3,"api":"csp_XBiu","searchable": 1,"quickSearch": 1,"filterable":0,"ext": "http://www.koudaitv.com/type/{cateId}-{catePg}.html"},
