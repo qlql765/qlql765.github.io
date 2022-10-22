@@ -64,6 +64,8 @@
 {"key":"csp_XYQBiu_万能影院","name": "🍀万能┃XYQ", "type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "https://qlql765.github.io/XYQxb/万能影院.json"},
 {"key":"csp_XYQBiu_大米星球","name":"🍀大米┃XYQ",  "type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"https://qlql765.github.io/XYQxb/大米星球.json"},
 
+{"key":"csp_xBPQ_555","name":"🍀555┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/555电影.json"},
+{"key":"csp_xBPQ_快看","name":"🍀快看┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/快看.json"},	
 {"key":"csp_xBPQ_工场","name":"🍀工场┃xBPQ", "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/影视工场.json"},	
 {"key":"csp_xBPQ_不卡","name":"🍀不卡┃xBPQ", "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/不卡.json"},
 {"key":"csp_xBPQ_98","name":"🍀98影┃xBPQ",   "type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/98影院.json"},
