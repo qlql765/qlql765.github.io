@@ -46,13 +46,13 @@
 //{"key":"csp_SP293","name":" 2️⃣293 ",        "type":3,"api":"csp_SP293",    "searchable":1,"quickSearch":1,"filterable":1},
 //{"key":"Auete",  "name":" 🅰Auete影院", "type":3,"api":"csp_Auete",    "searchable":1,"quickSearch":1,"filterable":1},
 
-{"key":"Cokemv", "name":" 🇨Cokemv影院 ",     "type":3,"api":"csp_Cokemv",   "searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar"},
+{"key":"Cokemv", "name":" 🇨Cokemv影院 ",     "type":3,"api":"csp_Cokemv",   "searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar;md5;7B3DB472894CC021C4B19DAA26E1282A"},
 
-{"key": "Ikan","name": " 💖爱看","type": 3,"api":"csp_IKan","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar"},
+{"key": "Ikan","name": " 💖爱看","type": 3,"api":"csp_IKan","searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar;md5;7B3DB472894CC021C4B19DAA26E1282A"},
 
-{"key":"LibVio", "name":" 󠁌🇱LibVio ",    "type":3,"api":"csp_Lib",      "searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar"},
+{"key":"LibVio", "name":" 󠁌🇱LibVio ",    "type":3,"api":"csp_Lib",      "searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar;md5;7B3DB472894CC021C4B19DAA26E1282A"},
 
-{"key": "Zjdr","name": "🏃追剧达人","type":3,"api": "csp_Zjdr","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://qlql765.github.io/jar/pdr1019.jar"},
+{"key": "Zjdr","name": "🏃追剧达人","type":3,"api": "csp_Zjdr","searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"https://qlql765.github.io/jar/pdr1019.jar;md5;7B3DB472894CC021C4B19DAA26E1282A"},
 
 {"key":"csp_Nmys","name":" 🌾农民 ",         "type":3,"api":"csp_Nmys",     "searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/sq/nmys.json"},
 
