@@ -119,8 +119,7 @@
     {"name": "解析聚合","type": 3,"url": "Demo"}, 
     {"name": "Json并发","type": 2,"url": "Parallel"}, 
     {"name": "Json轮询","type": 2,"url": "Sequence"}, 
-    //{"name":"GGTV","type":1,"url":"https://play.fuqizhishi.com/jx1/API.php?appkey=iiiixiaobai&url="},
-    //{"name":"GGTV聚合","type":1,"url":"https://play.fuqizhishi.com/juhe/API.php?appkey=caijijuhe220902&url="},
+    
     {"name":"刘兵解析","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"}}},
     {"name":"💋So丶","type":0,"url":" https://tljiaqing.nde.tw/m3u8/?url="},
     {"name":"神1","type":1,"url":"http://newjiexi.gotka.top/keyu3.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/4.1.0"}}},
@@ -141,7 +140,7 @@
     {"name": "m3u8tv弹幕","type": 0,"url": "https://dmjx.m3u8.tv/?url="},
     {"name": "OKjx综合","type": 0,"url": "https://okjx.cc/?url="}, 
     {"name": "诺讯","type": 1,"url": "https://yun.nxflv.com/?url="}, 
-    {"name": "parwix","type": 0,"url": "https://jx.bozrc.com:4433/player/?url="},
+    {"name":"bozrc","type":0,"url":"https://jx.bozrc.com:4433/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":""}}},
     {"name":"Fosi嗅探","type":0,"url":"https://play.fositv.com/?url="}
     
     ],
