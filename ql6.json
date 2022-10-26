@@ -28,7 +28,7 @@
     
     {"key":"追剧喵", "name":" 🐈追剧喵 ",      "type":3,"api":"csp_ZJMiao",   "searchable":1,"quickSearch":1,"filterable":1},
     
-    {"key":"Mjxq",   "name":" 🗽美剧星球 ",   "type":3,"api":"csp_Mjxq",     "searchable":1,"quickSearch":1,"filterable":1},
+    //{"key":"Mjxq",   "name":" 🗽美剧星球 ",   "type":3,"api":"csp_Mjxq",     "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"剧荒",   "name":" 🏝︎剧荒TV ",     "type":3,"api":"csp_Juhuang",  "searchable":1,"quickSearch":1,"filterable":1},
     
@@ -42,7 +42,7 @@
     
     {"key":"Auete",  "name":" 🅰Auete影院", "type":3,"api":"csp_Auete",    "searchable":1,"quickSearch":1,"filterable":1},
     
-    {"key":"LibVio", "name":" 󠁌🇱LibVio ",    "type":3,"api":"csp_Lib",      "searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar;md5;7B3DB472894CC021C4B19DAA26E1282A"},
+    //{"key":"LibVio", "name":" 󠁌🇱LibVio ",    "type":3,"api":"csp_Lib",      "searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar;md5;7B3DB472894CC021C4B19DAA26E1282A"},
     
     {"key":"Cokemv", "name":" 🇨Cokemv影院 ",     "type":3,"api":"csp_Cokemv",   "searchable":1,"quickSearch":1,"filterable":1,"jar":"https://qlql765.github.io/jar/pdr1019.jar;md5;7B3DB472894CC021C4B19DAA26E1282A"},
     
