@@ -65,7 +65,9 @@
     {"key": "Yj1211","name": " 📹️在线直播 ","type": 3,"api": "csp_Yj1211","searchable": 1,"quickSearch": 1,"filterable": 1},
     
     {"key":"BBB",    "name":" 📺哔哩套餐（合集）","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/bili.json"},
-    
+
+    {"key":"csp_XYQBiu_虎牙","name":"🐯虎牙","type":3,"api":"XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://qlql765.github.io/XYQxb/虎牙直播.json"},
+    {"key":"csp_XYQBiu_斗鱼","name":"🐟斗鱼","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://qlql765.github.io/XYQxb/斗鱼直播.json"},
     {"key":"csp_XYQBiu_凌云","name":"🍀凌云┃XYQ","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://qlql765.github.io/XYQxb/凌云影视.json"},
     {"key":"csp_XYQBiu_万能","name":"🍀万能┃XYQ","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://qlql765.github.io/XYQxb/万能影院.json"},
     {"key":"csp_XYQBiu_大米","name":"🍀大米┃XYQ","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/XYQxb/大米星球.json"},
