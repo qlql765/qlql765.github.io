@@ -1,6 +1,6 @@
 {
     //爬虫
-    "spider":"https://qlql765.github.io/sq/vod1027.jar;md5;57AD7F0B01981EBFEEBD1258F3DEE766",
+    "spider":"https://qlql765.github.io/sq/vob1028.jar;md5;A91AEB95134DBE8F9FEFF032A63E6C3D",
     
     // 直播
     "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cDovL2hvbWUuanVuZGllLnRvcDo4MS9yYXkvdHZsaXZlLnR4dA=="]}]}],
@@ -16,12 +16,14 @@
     
     {"key":"Lezhu",  "name":" 🐖乐猪影视 ", "type":3,"api":"csp_Lezhu",    "searchable":1,"quickSearch":1,"filterable":1},
      
-    {"key":"APPTT",  "name":" 📍图图影视 ", "type":3,"api":"csp_AppTT",    "searchable":1,"quickSearch":1,"filterable":0,"jar":"https://qlql765.github.io/jar/pdr1027.jar"},
+    {"key":"APPTT",  "name":" 📍图图影视 ", "type":3,"api":"csp_AppTT",    "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"小苹果", "name":"  🍎小苹果 ",   "type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",   "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
     
+    {"key":"csp_Nkdy","name":"🎃南柯","type":3,"api":"csp_Nkdy","searchable":1,"quickSearch":1,"filterable":1},
+
     {"key":"DDZY",   "name":" 😎多多资源 ",  "type":1,"api": "https://www.ddzyz1.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"filterable": 0,"categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","其他剧","动漫"]},
     
     {"key":"教育",   "name":" 👼少儿教育（儿童）","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/MaooXP/xue.json"},
