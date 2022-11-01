@@ -1,6 +1,6 @@
 {
     //爬虫
-    "spider":"https://qlql765.github.io/fty/xo1029.jar;md5;8a50493d65218bdd6c9c0089f415df2f",
+    "spider":"https://qlql765.github.io/fty/xo1031.jar;md5;5F8FC214F8BDA7598A1C4387F7062F2E",
     
     // 直播
     "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9xbHFsNzY1LmdpdGh1Yi5pby9saXZlL3lnYmgudHh0"]}]}],
