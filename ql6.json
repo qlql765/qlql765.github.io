@@ -1,6 +1,6 @@
 {
     //爬虫
-    "spider":"https://qlql765.github.io/fty/xo1031.jar;md5;5F8FC214F8BDA7598A1C4387F7062F2E",
+    "spider":"https://qlql765.github.io/fty/xo1101.jar;md5;D412FB7946EE29FC1086BCF9E11B8611",
     
     // 直播
     "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9xbHFsNzY1LmdpdGh1Yi5pby9saXZlL3lnYmgudHh0"]}]}],
@@ -20,6 +20,12 @@
     
     {"key":"小苹果", "name":"  🍎小苹果 ",   "type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
     
+    {"key": "Zjdr","name": "🏃追剧达人",   "type":3,"api": "csp_Zjdr","searchable": 1,"quickSearch": 1,"filterable": 1},
+    
+    {"key":"csp_Lgyy","name": "🔃蓝光","type": 3,"api": "csp_Lgyy","searchable": 1,"quickSearch": 1,"filterable": 1},
+
+    {"key":"csp_ny","name":"🐮念影","type":3,"api":"csp_Nianying","searchable":1,"quickSearch":1,"filterable":1},
+
     {"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",   "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"csp_fant","name":"🍙饭团","api":"csp_Fantuan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
@@ -49,10 +55,6 @@
     {"key":"Auete",  "name":" 🅰Auete影院", "type":3,"api":"csp_Auete",    "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"Cokemv", "name":" 🇨Cokemv影院 ",  "type":3,"api":"csp_Cokemv",   "searchable":1,"quickSearch":1,"filterable":1},
-    
-    {"key": "Zjdr","name": "🏃追剧达人",   "type":3,"api": "csp_Zjdr","searchable": 1,"quickSearch": 1,"filterable": 1},
-    
-    {"key":"csp_Lgyy","name": "🔃蓝光","type": 3,"api": "csp_Lgyy","searchable": 1,"quickSearch": 1,"filterable": 1},
 
     {"key": "Ikan","name": " 💖爱看",   "type": 3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a4ce9a4ba7d4f4bced2ff9dfc4ab4e50","jar":"https://qlql765.github.io/jar/pdr1030.jar"},
     
