@@ -1,6 +1,6 @@
 {
     //爬虫
-    "spider":"https://qlql765.github.io/fty/xo1102.jar;md5;c4ba98711fac35daff17780d0817f5dc",
+    "spider":"https://qlql765.github.io/fty/xo1104.jar;md5;ca07e741640debc3777bb9a227cfb884",
     
     // 直播
     "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9xbHFsNzY1LmdpdGh1Yi5pby9saXZlL3lnYmgudHh0"]}]}],
@@ -10,6 +10,8 @@
     
     //站点
     "sites":[ 
+    {"key":"t4vod",  "name":" 🫛豆瓣（长按聚搜）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0},
+
     {"key":"csp_77", "name":" 🌈七 七 ",     "type":3,"api":"csp_Kunyu77",  "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"Kuaikan","name":" 🌹快看 ",       "type":3,"api":"csp_Kuaikan", "searchable":1,"quickSearch":1,"filterable":1},
@@ -22,14 +24,14 @@
     
     {"key": "Zjdr","name": "🏃追剧达人",   "type":3,"api": "csp_Zjdr","searchable": 1,"quickSearch": 1,"filterable": 1},
     
+    {"key":"csp_fant","name":"🍙饭团","api":"csp_Fantuan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
+
     {"key":"csp_Lgyy","name": "🔃蓝光","type": 3,"api": "csp_Lgyy","searchable": 1,"quickSearch": 1,"filterable": 1},
 
     {"key":"csp_ny","name":"🐮念影","type":3,"api":"csp_Nianying","searchable":1,"quickSearch":1,"filterable":1},
 
     {"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",   "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
     
-    {"key":"csp_fant","name":"🍙饭团","api":"csp_Fantuan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
-
     {"key":"DDZY",   "name":" 😎多多资源 ",  "type":1,"api": "https://www.ddzyz1.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"filterable": 0,"categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","其他剧","动漫"]},
     
     {"key":"少儿",   "name":" 📚少儿教育","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/bili/少儿教育.json"},
@@ -53,6 +55,8 @@
 
     {"key":"csp_Nkdy","name":"🎃南柯","type":3,"api":"csp_Nkdy","searchable":1,"quickSearch":1,"filterable":1},
 
+    {"key":"在线之家","name":" 🏡在线之家",  "type":3,"api":"csp_Zxzj",     "searchable":1,"quickSearch":1,"filterable":1},
+
     {"key":"Auete",  "name":" 🅰Auete影院", "type":3,"api":"csp_Auete",    "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"Cokemv", "name":" 🇨Cokemv影院 ",  "type":3,"api":"csp_Cokemv",   "searchable":1,"quickSearch":1,"filterable":1},
@@ -72,8 +76,6 @@
     {"key":"Anime1", "name":" 🍙日本动漫 ", "type":3,"api":"csp_Anime1",   "searchable":1,"quickSearch":1,"filterable":1},
 
     {"key":"csp_Anfuns","name":"🎀Anfuns","type":3,"api":"csp_Anfuns","searchable":1,"quickSearch":1,"filterable":1},
-
-    {"key":"在线之家","name":" 🏡在线之家",  "type":3,"api":"csp_Zxzj",     "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key": "Yj1211","name": " 📹️在线直播 ","type": 3,"api": "csp_Yj1211","searchable": 1,"quickSearch": 1,"filterable": 1},
     
@@ -124,9 +126,9 @@
     
     {"key":"Upyunso","name":" ☁️Up云搜 ",        "type":3,"api":"csp_Upyunso", "playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
     
-    {"key":"push",   "name":" 🍭推送 ",         "type":3,"api":"csp_PushAgent","playerType":1,"searchable":0,"quickSearch":0,"filterable":0,"ext": "http://ali.饭太硬.ml/tok"},
+    {"key":"push",   "name":" 🍭推送 ",         "type":3,"api":"csp_PushAgent","playerType":1,"searchable":0,"quickSearch":0,"filterable":0,"ext": "http://ali.饭太硬.ml/tok"}
     
-    {"key":"t4vod",  "name":" 🇹T4亚马逊云（聚合搜索）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0}
+    
     
     ],
     
