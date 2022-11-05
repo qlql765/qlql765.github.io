@@ -10,7 +10,7 @@
     
     //站点
     "sites":[ 
-    {"key":"t4vod",  "name":" 🫛豆瓣（长按聚搜）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0},
+    {"key":"t4vod",  "name":" 🇩豆瓣（长按聚搜）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0},
 
     {"key":"csp_77", "name":" 🌈七 七 ",     "type":3,"api":"csp_Kunyu77",  "searchable":1,"quickSearch":1,"filterable":1},
     
@@ -22,8 +22,6 @@
     
     {"key":"小苹果", "name":"  🍎小苹果 ",   "type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
     
-    {"key": "Zjdr","name": "🏃追剧达人",   "type":3,"api": "csp_Zjdr","searchable": 1,"quickSearch": 1,"filterable": 1},
-    
     {"key":"csp_fant","name":"🍙饭团","api":"csp_Fantuan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
 
     {"key":"csp_Lgyy","name": "🔃蓝光","type": 3,"api": "csp_Lgyy","searchable": 1,"quickSearch": 1,"filterable": 1},
@@ -31,7 +29,9 @@
     {"key":"csp_ny","name":"🐮念影","type":3,"api":"csp_Nianying","searchable":1,"quickSearch":1,"filterable":1},
 
     {"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ",   "type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
-    
+
+    {"key":"Bttoo",  "name":" 🇧󠁴󠁴两个BT ",    "type":3,"api":"csp_Bttoo",  "searchable":1,"quickSearch":1,"filterable":1},
+
     {"key":"DDZY",   "name":" 😎多多资源 ",  "type":1,"api": "https://www.ddzyz1.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"filterable": 0,"categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","其他剧","动漫"]},
     
     {"key":"少儿",   "name":" 📚少儿教育","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/bili/少儿教育.json"},
@@ -39,11 +39,11 @@
     
     {"key":"追剧喵", "name":" 🐈追剧喵 ",      "type":3,"api":"csp_ZJMiao",   "searchable":1,"quickSearch":1,"filterable":1},
     
+    {"key": "Zjdr","name": "🏃追剧达人",   "type":3,"api": "csp_Zjdr","searchable": 1,"quickSearch": 1,"filterable": 1},
+
     {"key":"Mjxq",   "name":" 🗽美剧星球 ",   "type":3,"api":"csp_Mjxq",     "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"剧荒",   "name":" 🏝︎剧荒TV ",     "type":3,"api":"csp_Juhuang",  "searchable":1,"quickSearch":1,"filterable":1},
-    
-    {"key":"Bttoo",  "name":" 🇧󠁴󠁴两个BT ",    "type":3,"api":"csp_Bttoo",  "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"DiDuan",  "name":" 🌀低端影视 ",   "type":3,"api":"csp_Ddrk",     "searchable":1,"quickSearch":1,"filterable":0},
 
@@ -128,8 +128,6 @@
     
     {"key":"push",   "name":" 🍭推送 ",         "type":3,"api":"csp_PushAgent","playerType":1,"searchable":0,"quickSearch":0,"filterable":0,"ext": "http://ali.饭太硬.ml/tok"}
     
-    
-    
     ],
     
     
@@ -145,6 +143,10 @@
     {"name":"神2","type":0,"url":"https://h5.freejson.xyz/player/?url="},
     {"name":"神3","type":1,"url":"http://api.ckflv.cn/?url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}},
     {"name":"神4","type":0,"url":"https://freejx.rx88.top:1234/?url="},
+    {"name":"饭1","type":1,"url":"http://3.37.195.161:54371/parse/api/dyg.js?url=","header":{"User-Agent":"Mozilla/5.0"}},
+    {"name":"饭2","type":1,"url":"http://rxjx.kuanjv.com/allm3u8.php?url="},
+    {"name":"懒懒1","type":1,"url":"http://123.57.56.94:9931/lanlan/?url="},
+    {"name":"懒懒2","type":1,"url":"http://lanlan.ckflv.cn/?url=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}},
     {"name":"觅知","type":1,"url":"https://jx.255tv.cn/api/?key=4nk3dhZkAWbHTNpP3n&url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}}, 
     {"name":"融兴","type":1,"url":"https://svip.rongxingvr.top/api/?key=4gb6ui9qfap4kLrvb2&url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}},
     {"name":"左岸","type":1,"url":"http://110.42.2.115:880/analysis/json/?uid=2284&my=efghjmxzADEFIS0268&url=","ext":{"flag":["qiyi","iqiyi","奇艺","爱奇艺","qq","腾讯","youku","优酷","pptv","PPTV","letv","乐视","bilibili","哔哩哔哩","哔哩","mgtv","芒果","xigua","西瓜","sohu","搜狐","cntv","cctv","央视","1905","m1905"]}},
@@ -162,6 +164,7 @@
     {"name":"bozrc","type":0,"url":"https://jx.bozrc.com:4433/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":""}}},
     {"name":"Fosi嗅探","type":0,"url":"https://play.fositv.com/?url="}
     
+
     ],
     
     
