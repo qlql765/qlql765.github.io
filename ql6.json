@@ -10,7 +10,7 @@
     
     //站点
     "sites":[ 
-    {"key":"t4vod",  "name":" 🇩豆瓣（长按聚搜）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0},
+    
 
     {"key":"csp_77", "name":" 🌈七 七 ",     "type":3,"api":"csp_Kunyu77",  "searchable":1,"quickSearch":1,"filterable":1},
     
@@ -61,13 +61,17 @@
     
     {"key":"Cokemv", "name":" 🇨Cokemv影院 ",  "type":3,"api":"csp_Cokemv",   "searchable":1,"quickSearch":1,"filterable":1},
 
-    {"key": "Ikan","name": " 💖爱看",   "type": 3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a4ce9a4ba7d4f4bced2ff9dfc4ab4e50","jar":"https://qlql765.github.io/jar/pdr1030.jar"},
+    {"key": "Ikan","name": " 💖爱看",   "type": 3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a4ce9a4ba7d4f4bced2ff9dfc4ab4e50","jar":"https://qlql765.github.io/jar/pdr1106.jar"},
     
-    {"key":"csp_Smdyy","name": "🐴神马","type": 3,"api": "csp_Dora","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"16705ee9f4764be8499806f52d4bf1e7","jar":"https://qlql765.github.io/jar/pdr1030.jar"},
+    {"key":"csp_Smdyy","name": "🐴神马","type": 3,"api": "csp_Dora","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"16705ee9f4764be8499806f52d4bf1e7","jar":"https://qlql765.github.io/jar/pdr1106.jar"},
     
-    {"key":"Yanet","name":  "🦆鸭奈飞","type":3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a369b1f623fe86605f1b029f0cf66349","jar":"https://qlql765.github.io/jar/pdr1030.jar"},
+    {"key":"Yanet","name":  "🦆鸭奈飞","type":3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a369b1f623fe86605f1b029f0cf66349","jar":"https://qlql765.github.io/jar/pdr1106.jar"},
 
-    {"key":"Pang","name":"🐅胖虎","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"c41fdb671b20925c76fa9b6ff8bad027","jar":"https://qlql765.github.io/jar/pdr1030.jar"},
+    {"key":"Pang","name":"🐅胖虎","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"c41fdb671b20925c76fa9b6ff8bad027","jar":"https://qlql765.github.io/jar/pdr1106.jar"},
+
+    {"key":"Hei","name":"石榴","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"3bff500c8b1e06c052a1b0f1f7a62b45","jar":"https://qlql765.github.io/jar/pdr1106.jar"},
+
+    {"key":"Dy555","name":"555","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"f41992bd740145ed58cb212dc0876582","jar":"https://qlql765.github.io/jar/pdr1106.jar"},
 
     {"key":"csp_Nmys","name":" 🌾农民 ",  "type":3,"api":"csp_Nmys",    "searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/sq/nmys.json"},
     
@@ -80,6 +84,8 @@
     {"key": "Yj1211","name": " 📹️在线直播 ","type": 3,"api": "csp_Yj1211","searchable": 1,"quickSearch": 1,"filterable": 1},
     
     {"key":"BBB",    "name":" 📺哔哩套餐","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/bili/Bili1.json"},
+    
+    {"key":"t4vod",  "name":" 🇩豆瓣（长按聚搜）","type":4,"api":"http://t4.ql765.top?sites=all&ali_token=3865f0ab8f124688ad786a262af9b940&timeout=10","searchable":1,"quickSearch":1,"filterable":0},
 
     {"key":"csp_XYQBiu_虎牙","name":"🐯虎牙","type":3,"api":"XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://qlql765.github.io/XYQxb/虎牙直播.json"},
     {"key":"csp_XYQBiu_斗鱼","name":"🐟斗鱼","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://qlql765.github.io/XYQxb/斗鱼直播.json"},
