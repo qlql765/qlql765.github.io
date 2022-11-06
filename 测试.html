@@ -1,1816 +1,380 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>8K影视 - 全网VIP免费看</title>
-    <meta name="keywords" content="全网VIP影视免费看" />
-    <meta name="description" content="全网VIP影视免费看" />
-
-    <head>
-        <meta name="referrer" content="always">
-    </head>
-    <meta name="referrer" content="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" href="/template/mytheme/statics/image/20210121/188e68bdf.png" type="image/x-icon" />
-    <link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-font.css?v=1.0" type="text/css" />
-    <link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-ui.css?v=1.0" type="text/css" />
-    <link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-site.css?v=1.0" type="text/css" />
-    <link rel="stylesheet" href="/template/mytheme/statics/css/mytheme-lgxc.css?v=1.0" type="text/css" name="default" />
-    <script> var maccms = { "path": "", "mid": "", "url": "vip.8kvod.com:888", "wapurl": "vip.8kvod.com:888", "mob_status": "2" }; var myui = { "tpl": "/template/mytheme/", "short": "", "shortapi": "", "bdapi": "http://bdimg.share.baidu.com/static/api/js/share.js", "thunderurl": "" };</script>
-    <script type="text/javascript" src="/template/mytheme/statics/js/jquery.min.js?v=3.3.1"></script>
-    <script type="text/javascript" src="/template/mytheme/statics/js/layer/layer.js?v3.1.1"></script>
-    <script type="text/javascript" src="/template/mytheme/statics/js/mytheme-site.js?v=1.0"></script>
-    <script type="text/javascript" src="/template/mytheme/statics/js/mytheme-ui.js?v=1.0"></script>
-    <script type="text/javascript" src="/template/mytheme/statics/js/mytheme-cms.js?v=1.0"></script>
-    <script type="text/javascript" src="/static/js/home.js"></script>
-    <style type="text/css">
-        body {
-            font-family: "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
-        }
-
-        [class*=col-],
-        .myui-content__list li,
-        .myui-vodlist__media.col li {
-            padding: 10px
-        }
-
-        .btn {
-            border-radius: 5px;
-        }
-
-        .myui-vodlist__thumb {
-            border-radius: 0px;
-            padding-top: 150%;
-            background: url(/template/mytheme/statics/image/20210121/040e32244.gif) no-repeat;
-        }
-
-        .myui-vodlist__thumb.square {
-            padding-top: 100%;
-            background: url(/template/mytheme/statics/img/load_f.png) no-repeat;
-        }
-
-        .myui-vodlist__thumb.wide {
-            padding-top: 60%;
-            background: url(/template/mytheme/statics/image/20210121/5d65e855d.gif) no-repeat;
-        }
-
-        .myui-vodlist__thumb.actor {
-            padding-top: 140%;
-        }
-
-        .flickity-prev-next-button.previous {
-            left: 10px;
-        }
-
-        .flickity-prev-next-button.next {
-            right: 10px;
-        }
-
-        .myui-sidebar {
-            padding: 0 0 0 10px;
-        }
-
-        .myui-panel {
-            margin-bottom: 10px;
-            border-radius: 5px;
-        }
-
-        .myui-panel-mb {
-            margin-bottom: 10px;
-        }
-
-        .myui-player__item .fixed {
-            width: 500px;
-        }
-
-        .myui-vodlist__text li a,
-        .myui-vodlist__media li {
-            padding: 10px 0;
-        }
-
-        .myui-screen__list {
-            padding: 10px 10px 0;
-        }
-
-        .myui-screen__list li {
-            margin-bottom: 10px;
-            margin-right: 10px;
-        }
-
-        .myui-page {
-            padding: 0 10px;
-        }
-
-        .myui-extra {
-            right: 20px;
-            bottom: 30px;
-        }
-
-        @media (min-width: 1200px) {
-            .container {
-                max-width: 1600px;
-            }
-
-            .container {
-                padding-left: 0px;
-                padding-right: 0px;
-            }
-
-            .container.min {
-                width: 1200px;
-                padding: 0;
-            }
-        }
-
-        @media (max-width: 767px) {
-
-            body,
-            body.active {}
-
-            [class*=col-],
-            .myui-panel,
-            .myui-content__list li {
-                padding: 5px
-            }
-
-            .flickity-prev-next-button.previous {
-                left: 5px;
-            }
-
-            .flickity-prev-next-button.next {
-                right: 5px;
-            }
-
-            .myui-vodlist__text li a,
-            .myui-vodlist__media li {
-                padding: 10px 0;
-            }
-
-            .myui-screen__list {
-                padding: 10px 5px 0;
-            }
-
-            .myui-screen__list li {
-                margin-bottom: 5px;
-                margin-right: 5px;
-            }
-
-            .myui-extra {
-                right: 20px;
-                bottom: 30px;
-            }
-
-            .myui-page {
-                padding: 0 5px;
-            }
-        }
-
-        .myui-topbg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            width: 100%;
-        }
-    </style>
+<title>乐猪TV - 最新电影电视剧手机免费在线观看</title>
+<meta name="keywords" content="最新电影,最新电视剧,手机在线观看,电视剧排行榜,好莱坞大片,乐猪TV" />
+<meta name="description" content="乐猪TV影视为您提供最新电影,电影下载,电影排行榜,最新电视剧,电视剧大全,好看的电视剧,好看的电影在线观看和迅雷电影下载,明星信息,演员表,每天第一时间更新。" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="shortcut icon" href="/template/lezhutv/images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/template/lezhutv/images/icon.jpg">
+<link rel="stylesheet" href="/template/lezhutv/font/iconfont.css" type="text/css" />
+<link rel="stylesheet" href="/template/lezhutv/css/m.css?c=1.1" type="text/css" />
+<script type="text/javascript" src="//lib.baomitu.com/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="//lib.baomitu.com/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="/template/lezhutv/js/home.js"></script>
+<script type="text/javascript" language="javascript" src="/template/lezhutv/js/timer.js"></script>
+<script type="text/javascript" language="javascript" src="/template/lezhutv/js/track.js"></script>
+<script type="text/javascript" src="/static/deny.js"></script>
+<script>var SitePath='/',SiteAid='10',SiteTid='',SiteId='';</script>
 </head>
+<body>
+<div class="wrap">
 
-<body class="active">
-    <header class="myui-header__top clearfix" id="header-top">
-        <div class="container">
-            <div class="row">
-                <div class="myui-header__logo"><a class="logo" href="/"><img class="img-responsive hidden-xs"
-                            src="/template/mytheme/statics/image/20210121/2e57ae443.png" /><img
-                            class="img-responsive visible-xs"
-                            src="/template/mytheme/statics/image/20210121/2b33fa623.png" /></a></div>
-                <ul class="myui-header__menu">
-                    <li class="search-ul dropdown-hover"><a href="javascript:;"><i class="fa fa-reorder"></i></a>
-                        <div class="dropdown-box bottom fadeInDown clearfix">
-                            <ul class="item nav-list clearfix">
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a class="btn btn-sm btn-block btn-warm"
-                                        href="/">首页</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/1/">电影</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/2/">连续剧</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/3/">综艺</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/4/">动漫</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/43/">少儿</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/41/">体育</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/6/">动作片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/7/">喜剧片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/8/">爱情片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/9/">科幻片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/10/">恐怖片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/11/">剧情片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/12/">战争片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/48/">惊悚片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/49/">犯罪片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/50/">冒险片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/51/">悬疑片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/52/">奇幻片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/28/">纪录片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default" href="/t/29/">动画片</a></li>
-                                <li class="col-lg-5 col-md-5 col-sm-5 col-xs-3"><a
-                                        class="btn btn-sm btn-block btn-default"
-                                        href="http://a.vod.fit:668/web/wxgzh.html">APP</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class=" active hidden-sm hidden-xs"><a href="/">首页</a></li>
-                    <li class=" dropdown-hover hidden-sm hidden-xs"><a href="/t/1/">电影</a>
-                        <div class="dropdown-box bottom fadeInDown clearfix" style="padding-top: 0;">
-                            <ul class="item nav-list clearfix" style="width: 190px;">
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/6-----------/">动作片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/7-----------/">喜剧片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/8-----------/">爱情片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/9-----------/">科幻片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/10-----------/">恐怖片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/11-----------/">剧情片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/12-----------/">战争片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/48-----------/">惊悚片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/49-----------/">犯罪片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/50-----------/">冒险片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/51-----------/">悬疑片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/52-----------/">奇幻片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/28-----------/">纪录片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/29-----------/">动画片</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/31-----------/">其他片</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class=" dropdown-hover hidden-sm hidden-xs"><a href="/t/2/">连续剧</a>
-                        <div class="dropdown-box bottom fadeInDown clearfix" style="padding-top: 0;">
-                            <ul class="item nav-list clearfix" style="width: 190px;">
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/13-----------/">国产剧</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/14-----------/">港台剧</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/15-----------/">日韩剧</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/16-----------/">欧美剧</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/20-----------/">海外剧</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class=" dropdown-hover hidden-sm hidden-xs"><a href="/t/3/">综艺</a>
-                        <div class="dropdown-box bottom fadeInDown clearfix" style="padding-top: 0;">
-                            <ul class="item nav-list clearfix" style="width: 190px;">
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/21-----------/">大陆综艺</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/22-----------/">港台综艺</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/23-----------/">国外综艺</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/39-----------/">歌曲MV</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class=" dropdown-hover hidden-sm hidden-xs"><a href="/t/4/">动漫</a>
-                        <div class="dropdown-box bottom fadeInDown clearfix" style="padding-top: 0;">
-                            <ul class="item nav-list clearfix" style="width: 190px;">
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/24-----------/">国产动漫</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/25-----------/">日本动漫</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/26-----------/">欧美动漫</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/27-----------/">其他动漫</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class=" dropdown-hover hidden-sm hidden-xs"><a href="/t/41/">体育</a>
-                        <div class="dropdown-box bottom fadeInDown clearfix" style="padding-top: 0;">
-                            <ul class="item nav-list clearfix" style="width: 190px;">
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/53-----------/">足球</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/54-----------/">篮球</a></li>
-                                <li class="col-md-2 col-sm-2 col-xs-1" style="padding: 6px;"><a
-                                        class="btn btn-sm btn-block btn-default" href="/fl/55-----------/">网球</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="active hidden-md hidden-sm hidden-xs"><a
-                            href="http://a.vod.fit:668/web/wxgzh.html">APP</a></li>
-                </ul>
-                <ul class="myui-header__user">
-                    <li class="visible-xs"><a class="open-search" href="javascript:;"><i class="fa fa-search"></i></a>
-                    </li>
-                    <li class="hist dropdown-hover"><a href="javascript:;" title="播放记录"><i
-                                class="fa fa-clock-o"></i></a>
-                        <div class="dropdown-box fadeInDown">
-                            <div class="item clearfix">
-                                <p class="text-muted"><a class="text-red pull-right" href="javascript:;"
-                                        onclick="MyTheme.Cookie.Del('history','您确定要清除记录吗？');">[清空]</a>播放记录</p>
-                                <div class="history-list clearfix">
-                                    <script
-                                        type="text/javascript">var history_get = MyTheme.Cookie.Get("history"); if (history_get) { var json = eval("(" + history_get + ")"); for (i = 0; i < json.length; i++) { document.write("<p><a class='text-333' href='" + json[i].link + "' title='" + json[i].name + "'><span class='pull-right text-red'>" + json[i].part + "</span>" + json[i].name + "</a></p>"); } } else { document.write("<p style='padding: 80px 0; text-align: center'>您还没有看过影片哦</p>"); }</script>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="/index.php/label/hot.html" title="热播榜"><i class="fa fa-feed"></i></a></li>
-                    <li><a href="javascript:;" onclick="Myui.User.Login();"><i class="fa fa-user"></i></a></li>
-                </ul>
-                <script type="text/javascript" src="/template/mytheme/statics/js/jquery.autocomplete.js"></script>
-                <ul class="myui-header__search search-box">
-                    <li class="search-item dropdown-hover" href="javascript:;">
-                        <form id="search" name="search" method="get" action="/vse/" onSubmit="return qrsearch();"><input
-                                type="text" id="wd" name="wd" class="search_wd form-control" value="" placeholder="斗罗大陆"
-                                autocomplete="off" /><button class="submit search_submit" id="searchbutton"
-                                type="submit" name="submit"><i class="fa fa-search"></i></button></form>
-                        <div class="search-hot dropdown-box bottom fadeInDown">
-                            <div class="item">
-                                <p class="text-muted">热门搜索</p>
-                                <p><a class="text-333" href="/vse%E8%BF%BD%E8%99%8E%E6%93%92%E9%BE%99/" title=""><span
-                                            class="badge badge-first">1</span>追虎擒龙</a></p>
-                                <p><a class="text-333" href="/vse%E5%90%91%E5%BE%80%E7%9A%84%E7%94%9F%E6%B4%BB/"
-                                        title=""><span class="badge badge-second">2</span>向往的生活</a></p>
-                                <p><a class="text-333" href="/vse%E6%9C%AB%E6%97%A5%E9%80%83%E7%94%9F/" title=""><span
-                                            class="badge badge-third">3</span>末日逃生</a></p>
-                                <p><a class="text-333" href="/vse%E6%88%98%E7%8B%BC2/" title=""><span
-                                            class="badge">4</span>战狼2</a></p>
-                                <p><a class="text-333" href="/vse%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%95%BF/" title=""><span
-                                            class="badge">5</span>中国机长</a></p>
-                                <p><a class="text-333"
-                                        href="/vse%E4%BA%B2%E7%88%B1%E7%9A%84%E7%83%AD%E7%88%B1%E7%9A%84/"
-                                        title=""><span class="badge">6</span>亲爱的热爱的</a></p>
-                                <p><a class="text-333" href="/vse%E6%94%80%E7%99%BB%E8%80%85/" title=""><span
-                                            class="badge">7</span>攀登者</a></p>
-                                <p><a class="text-333"
-                                        href="/vse%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E7%A5%96%E5%9B%BD/"
-                                        title=""><span class="badge">8</span>我和我的祖国</a></p>
-                            </div>
-                        </div>
-                    </li><a class="search-close visible-xs" href="javascript:;"><i class="fa fa-close"></i></a>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <div class="myui-container-bg">
-        <div class="container">
-            <div class="row">
-                <div class="myui-panel margin-0 clearfix">
-                    <div class="myui-panel-box clearfix">
-                        <div class="myui-panel_bd clearfix">
-                            <ul class="myui-vodlist clearfix">
-                                <li class="col-sm-1 col-xs-1">
-                                    <div class="flickity center clearfix" data-align="left" data-next="1"
-                                        data-play="1500">
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/243026/" title="中国医生"
-                                                style="background: url(http://102_img.8kvod.com:668/www.8kvod.com/upload/vod/20210919-1/c6ae3eb7cdbfda9f0d6c2ab056baffcc.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">中国医生</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/203792/" title="革命者"
-                                                style="background: url(http://102_img.8kvod.com:668/www.8kvod.com/upload/vod/20210809-1/cf6787ad17baef53c0a78d5290cfe220.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">革命者</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/163757/" title="幸存者1937"
-                                                style="background: url(http://102_img.8kvod.com:668/laoimg20210719/upload/vod/20210705-1/9f849e1b6fd537eddb137461343be065.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">幸存者1937</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/167001/" title="了不起的老爸"
-                                                style="background: url(http://102_img.8kvod.com:668/www.8kvod.com/upload/vod/20210802-1/17cfcf71197e2a83b09b3b4f8d001775.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">了不起的老爸</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/158833/" title="人之怒"
-                                                style="background: url(http://102_img.8kvod.com:668/www.8kvod.com/upload/vod/20210805-1/893e9ea70cb3636467fa67d11b8b01e1.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">人之怒</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/255031/" title="侏罗纪世界3"
-                                                style="background: url(//vc.qpic.cn/tpic/mtviwsfiRJptN/fpen0753mkrui149/1680); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">侏罗纪世界3</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/235742/" title="赘婿之吉兴高照"
-                                                style="background: url(http://102_img.8kvod.com:668/www.8kvod.com/upload/vod/20210814-1/89c386357e88c30918038b0afbaf9b69.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">赘婿之吉兴高照</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/300554/" title="外太空的莫扎特"
-                                                style="background: url(//puui.qpic.cn/media_img/lena/PICwpv7a9_580_1680/0); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">外太空的莫扎特</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/289256/" title="冒牌财神爷"
-                                                style="background: url(//puui.qpic.cn/media_img/lena/PICtz8dnb_580_1680/0); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">冒牌财神爷</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/246461/" title="生死阻击"
-                                                style="background: url(https://tuchuang.voooe.cn/images/2021/10/02/ssjj.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">生死阻击</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/333623/" title="底线"
-                                                style="background: url(https://i2.wp.com/pic3.iqiyipic.com/lequ/common/lego/20220929/de679d88210a45d7b0f5dd13e21b8e51.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">底线</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/333789/" title="大考"
-                                                style="background: url(https://i3.wp.com/pic1.iqiyipic.com/lequ/common/lego/20220921/257728df3c23486da467ca72c68566fc.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">大考</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/286078/" title="警察荣誉"
-                                                style="background: url(https://i3.wp.com/pic1.iqiyipic.com/lequ/common/lego/20220608/35833fe36e5d4ce4b42d190308cf7457.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">警察荣誉</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/293561/" title="关于唐医生的一切"
-                                                style="background: url(https://i2.wp.com/pic0.iqiyipic.com/lequ/common/lego/20220701/58f404dd83ff405088a737eae64c8b35.jpg?caplist=jpg,webp,avif); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">关于唐医生的一切</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/328184/" title="天才基本法"
-                                                style="background: url(https://dd-static.jd.com/ddimg/jfs/t1/177492/1/27099/174210/62db503fE4c7fde80/2f7a924991f84b5e.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">天才基本法</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/331796/" title="简言的夏冬"
-                                                style="background: url(//puui.qpic.cn/media_img/lena/PICmrm7v0_580_1680/0); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">简言的夏冬</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/266987/" title="人世间"
-                                                style="background: url(https://pic2.iqiyipic.com/lequ/common/lego/20220301/5425d7db64a24b90b59d13a3825d504b.jpg?caplist=jpg,webp); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">人世间</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/331838/" title="七人乐队"
-                                                style="background: url(http://puui.qpic.cn/media_img/lena/PICm4osb3_580_1680/0); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">七人乐队</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/264898/" title="长津湖之水门桥"
-                                                style="background: url(http://puui.qpic.cn/media_img/lena/PICtrrv49_580_1680/0); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">长津湖之水门桥</span></a></div>
-                                        <div class="col-xs-1 padding-0"><a class="myui-vodlist__thumb wide"
-                                                href="/k/245932/" title="我和我的父辈"
-                                                style="background: url(https://tuchuang.voooe.cn/images/2021/10/02/whwdfb.jpg); padding-top: 35%;"><span
-                                                    class="play hidden-xs"></span><span class="pic-text text-center"
-                                                    style="padding: 10px; font-size: 15px;">我和我的父辈</span></a></div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="myui-panel active myui-panel-bg2 clearfix">
-                <div class="myui-panel-box clearfix">
-                    <div class="col-xs-1">
-                        <div class="clearfix"><a href="http://a.vod.fit:668/web/app.html" target="_blank"><img
-                                    src="http://dd-static.jd.com/ddimg/jfs/t1/182005/39/27904/79706/62dccc56Ead3a625c/69a46dec969d95fc.png"
-                                    width="100%" height="100%" title="" align="" alt="广告位招租" /></a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="myui-panel myui-panel-bg clearfix">
-                <div class="myui-panel-box clearfix">
-                    <div class="myui-panel_hd">
-                        <div class="myui-panel__head clearfix"><span class="text-muted more pull-right">今日更新“385”<span
-                                    class="split-line"></span><a href="/label/new/">最近更新<i
-                                        class="fa fa-angle-right"></i></a></span>
-                            <h3 class="title">大片推荐</h3>
-                        </div>
-                    </div>
-                    <div class="myui-panel_bd clearfix">
-                        <ul class="myui-vodlist clearfix">
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/243026/"
-                                        title="中国医生"
-                                        data-original="https://i3.wp.com/img9.doubanio.com/view/photo/m/public/p2666591984.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">HD</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/243026/" title="中国医生">中国医生</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：张涵予,袁泉,朱亚文,李晨,易烊千玺,欧豪,周也,冯文娟,耿乐,梁大维</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/203792/"
-                                        title="革命者"
-                                        data-original="https://www.taopianimage1.com:43333/84e2601a-c8ef-41e9-815a-453247f2e518/a0ba49ba-87b8-41b4-8ad3-50b8fc26ffd8/18970.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">蓝光</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/203792/" title="革命者">革命者</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：张颂文,李易峰,佟丽娅,成泰燊,彭昱畅,李九霄,韩庚,梁静,马少骅,白客,秦昊,于谦,孙浠伦,章若楠,辛云来,朱梓瑜,张承,周杨洋</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/163757/"
-                                        title="幸存者1937"
-                                        data-original="http://102_img.8kvod.com:668/laoimg20210719/upload/vod/20210702-1/8562f2bef7de0f7bcc48ccd1bf4e1b3d.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">高清</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/163757/" title="幸存者1937">幸存者1937</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：苏鑫,孙昊,关笑天,马佳玮,王智,王忠浩,杨宇鑫,金靖承</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/167001/"
-                                        title="了不起的老爸"
-                                        data-original="http://102_img.8kvod.com:668/www.8kvod.com/upload/vod/20210728-1/c2b463b5338f32dfc4bb6132eb3fe639.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">高清</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/167001/" title="了不起的老爸">了不起的老爸</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：王砚辉,张宥浩,龚蓓苾</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/158833/"
-                                        title="人之怒"
-                                        data-original="http://102_img.8kvod.com:668/laoimg20210719/upload/vod/20210518-1/6484fbf72404dcda0f0a94d9651e1254.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">高清</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/158833/" title="人之怒">人之怒</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：杰森·斯坦森,霍特·麦克卡兰尼,罗奇·威廉姆斯
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/255031/"
-                                        title="侏罗纪世界3"
-                                        data-original="https://img.smxjysm.com/upload/vod/20220613-1/cadcec415022842c9255d0a7cfdb4e90.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">高清</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/255031/" title="侏罗纪世界3">侏罗纪世界3</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：克里斯·帕拉特,布莱丝·达拉斯·霍华德,杰克·约翰逊,杰夫·高布伦</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/235742/"
-                                        title="赘婿之吉兴高照"
-                                        data-original="https://www.taopianimage1.com:43333/84e2601a-c8ef-41e9-815a-453247f2e518/a0ba49ba-87b8-41b4-8ad3-50b8fc26ffd8/18792.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">高清</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/235742/" title="赘婿之吉兴高照">赘婿之吉兴高照</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：刘冠麟,王祉萱,岳旸,戴向宇,韩承羽,海波,胡丹丹,曹曦月,张净桐,沈浩,陈冠英,姚一奇,</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/300554/"
-                                        title="外太空的莫扎特"
-                                        data-original="https://p0.pipi.cn/mmdb/25bfd6d7f2a8078ea3d7c304dc0f9d848c001.jpg?imageView2/1/w/464/h/644"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">高清</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/300554/" title="外太空的莫扎特">外太空的莫扎特</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：黄渤,荣梓杉,姚晨,范伟,黄杨钿甜,王一鸣,陈思诚,贾冰,许君聪,于洋,梅婷,黄觉</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/289256/"
-                                        title="冒牌财神爷"
-                                        data-original="http://img.kuaibozy.net/upload/vod/20220609-1/ff6491269d94284023a2845c7c657725.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">高清</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/289256/" title="冒牌财神爷">冒牌财神爷</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：贾冰,于洋,克拉拉,崔志佳,修睿,桑平,郭阳,郭亮,潘悦,欧阳振峰</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/246461/"
-                                        title="生死阻击"
-                                        data-original="http://img.kuaibozy.net/upload/vod/20211002-1/f26e95ce14c7ace8ebcaa934df2a4e0e.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">高清</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/246461/" title="生死阻击">生死阻击</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：李幼斌,王韬,史兰芽,魏子千,江水,张光北,黄品沅,矢野浩二,谢孟伟,杨清文</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/333623/"
-                                        title="底线"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/20320/39/17925/25392/63286904Ecb0a8a02/c4d0e53990762abd.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">40集全</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/333623/" title="底线">底线</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：靳东,成毅,蔡文静,王秀竹,曾梦雪,王梓权,王一楠,王莎莎,赵子琪,王润泽,吴恙,胡浩博</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/333789/"
-                                        title="大考"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/175898/21/30038/61598/632ad3c1Eb51dafe9/1ab6a8faf8a2500a.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">22集全</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/333789/" title="大考">大考</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：陈宝国,王千源,李庚希,胡先煦,荣梓杉,郭涛,梁静,颜丙燕,王骁,曹曦文,蓝盈莹</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/286078/"
-                                        title="警察荣誉"
-                                        data-original="http://img.kuaibozy.net/upload/vod/20220528-1/c4faa985a956be49eeebf9c0583cf18b.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">38集全</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/286078/" title="警察荣誉">警察荣誉</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：张若昀,白鹿,王景春,宁理,徐开骋,赵阳,曹璐,王同辉,李晓川,齐襄,齐奎,李诚儒,许娣,吴玉芳,刘威葳,刘仪伟,郭虹</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/293561/"
-                                        title="关于唐医生的一切"
-                                        data-original="http://img.kuaibozy.net/upload/vod/20220625-1/0a4dec3659beeb86b1d5ff69b7d1ab2e.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">36集全</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/293561/"
-                                                title="关于唐医生的一切">关于唐医生的一切</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：秦岚,魏大勋,黄觉,高露,王耀庆,宣言,金泽灏
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/328184/"
-                                        title="天才基本法"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/205372/32/25195/46958/62dcd0aeE4dd02ec6/4f19e057971d42f4.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">34集全</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/328184/" title="天才基本法">天才基本法</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：雷佳音,张子枫,张新成,刘琳,王圣迪,耿乐,王骁,王宥钧,胡连馨,是安,林子烨,傅铂涵,王瑞欣,彭浩森,吴幸键,刘亚锟,倪妮,童瑶,万茜</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-8 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/331796/"
-                                        title="简言的夏冬"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/147636/7/30224/36198/6305b183Ee3106d47/7d53ba15d9e790bc.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更至49集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/331796/" title="简言的夏冬">简言的夏冬</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：朱亚文,万茜,张萌,袁文康,张子健,薛皓文,范帅琦,龙政璇,贾本初,蒋方婷</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="myui-panel myui-panel-bg clearfix">
-                <div class="myui-panel-box clearfix">
-                    <div class="myui-panel_bd">
-                        <div class="col-xs-1"><a href="http://wpa.qq.com/msgrd?v=3&uin=81032177&site=qq&menu=yes"
-                                target="_blank"><img src="https://tuchuang.voooe.cn/images/2022/05/10/add_bf_130_65.png"
-                                    width="100%" height="100%" title="" align="" alt="广告位招租" /></a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="myui-panel myui-panel-bg clearfix">
-                <div class="myui-panel-box clearfix">
-                    <div class="myui-panel_bd clearfix">
-                        <div class="myui-panel_hd">
-                            <div class="myui-panel__head clearfix">
-                                <h3 class="title">最新电影</h3><a class="more text-muted" href="/t/1/">更多<i
-                                        class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <ul class="myui-vodlist clearfix">
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/356589/"
-                                        title="帕达"
-                                        data-original="/upload/vod/20221024-1/38f6d12bfc992af9ebbf1e21f48c1959.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/356589/" title="帕达">帕达</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：Kunchacko
-                                            Boban,Vinayakan,Joju George,Dileesh Pothan,Sunil Annur,Shine Tom
-                                            Chacko,Master Davinchi,Bitto Davis,James Eliya,Nithin
-                                            George,Gopalan,Indrans,Jagadish,Sudheer Karamana,Santhosh
-                                            Keezhattoor,玛摩缇,普拉卡什·拉贾</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368115/"
-                                        title="杀手·婚礼之路"
-                                        data-original="/upload/vod/20221025-1/269bae853f3c35481e0ab68c998d390a.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2009</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368115/" title="杀手·婚礼之路">杀手·婚礼之路</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：上野树里,木村佳乃,寺胁康文,小出惠介</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/361648/"
-                                        title="杀出个未来"
-                                        data-original="https://pic.rmb.bdstatic.com/bjh/0a62a096f0723678b396cd586f8c90e0.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">0</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/361648/" title="杀出个未来">杀出个未来</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：张文慈,吕颂贤,单立文,吴毅将,林雪</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/172925/"
-                                        title="杀生" data-original="https://tu.kuaibozy.net/1687.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2012</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/172925/" title="杀生">杀生</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：黄渤,任达华,余男,苏有朋,马精武,梁静,闫妮,王迅
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368114/"
-                                        title="大幻术师2"
-                                        data-original="/upload/vod/20221025-1/e766a37f3662c2876dbdd4680bc8c960.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368114/" title="大幻术师2">大幻术师2</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：钱小豪,孙飞翔,关翔匀,余俪,韩金明</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368113/"
-                                        title="大幻术师"
-                                        data-original="/upload/vod/20221025-1/d27cebc89ab7c581baf815e2210ed5ed.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2020</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368113/" title="大幻术师">大幻术师</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：钱小豪,孙飞翔,关翔云,廖梦妍,潘彦妃,李腾飞
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368112/"
-                                        title="墨菲逃离好莱坞"
-                                        data-original="/upload/vod/20221025-1/6ab29a826640b625206fae67d9a172f7.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2017</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368112/" title="墨菲逃离好莱坞">墨菲逃离好莱坞</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：迈克尔·帕尔 , 罗芙洛 , Cindy Lucas
-                                            , Jennifer Holt</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368111/"
-                                        title="惹事生非"
-                                        data-original="/upload/vod/20221025-1/5da4cdc8a0f1f9d4b7272c96541c256f.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">1997</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368111/" title="惹事生非">惹事生非</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：句号,梁丽,李桂清,王钢,杨新鸣,谭希和</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368110/"
-                                        title="杀手生涯"
-                                        data-original="/upload/vod/20221025-1/cfa74c66408c611529783659a8871bec.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2005</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368110/" title="杀手生涯">杀手生涯</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：察猜·本班尼</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/362593/"
-                                        title="人民的巨掌"
-                                        data-original="https://pic.rmb.bdstatic.com/bjh/75431d7b6fa7d5fb446de94e9c972575.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">1950</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/362593/" title="人民的巨掌">人民的巨掌</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：魏鹤龄,王蓓</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/170120/"
-                                        title="杀人三步曲"
-                                        data-original="https://www.taopianimage1.com:43333/84e2601a-c8ef-41e9-815a-453247f2e518/09e075a8-2f53-49d9-bb94-aae2cd0e1c73/15535.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">1995</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/170120/" title="杀人三步曲">杀人三步曲</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：安东尼奥·班德拉斯,萨尔玛·海耶克,史蒂夫·布西密,乔昆姆·德·阿尔梅达,切奇·马林,昆汀·塔伦蒂诺,Cheech,Marin,丹尼·特乔</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/343555/"
-                                        title="第五大道 第二季"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/49170/28/20569/27412/6344ec9aEce24decf/496be1884cd7246a.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至3集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/343555/" title="第五大道 第二季">第五大道
-                                                第二季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：休·劳瑞,乔什·加德,阿舍尔·阿里,乔纳森·阿里斯,安迪·巴克利,阿尔弗雷多·塔瓦雷斯,劳伦·蕾克,扎克·伍兹,山姆·道格拉斯,Tomini
-                                            Babs,Genevieve Florence,A.J. Parkes,Imogen Woods</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/356584/"
-                                        title="亲爱的别担心"
-                                        data-original="/upload/vod/20221024-1/78c709a72efc1cb28a5de27565b84798.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/356584/" title="亲爱的别担心">亲爱的别担心</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：弗洛伦丝·皮尤,哈里·斯泰尔斯,克里斯·派恩,奥利维亚·王尔德,琪琪·莱恩,嘉玛·陈,尼克·克罗尔,西德尼·钱德勒,凯特·贝兰特,阿西夫·阿里,道格拉斯·史密斯,蒂莫西·西蒙斯,阿里尔·斯泰切尔,史蒂夫·伯格,黛西·苏戴奇斯,马塞罗·莱耶斯,梦露·克莱恩,蒂塔·万·提斯,泰勒·梅,莱克茜·休姆,提娅.利泽伍德
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368093/"
-                                        title="山炮驾到2之灵魂转移"
-                                        data-original="/upload/vod/20221025-1/3a32d68c62c434325a64ef47e376d010.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2018</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368093/"
-                                                title="山炮驾到2之灵魂转移">山炮驾到2之灵魂转移</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：杨钢,李鑫奇</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368092/"
-                                        title="沙尼达尔之花"
-                                        data-original="/upload/vod/20221025-1/68c66cba6ce65480b544755e4c7efbc7.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2013</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368092/" title="沙尼达尔之花">沙尼达尔之花</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：绫野刚,黑木华,古馆宽治,伊藤步,山下莉绪,刈谷友衣子</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368091/"
-                                        title="十二生肖：世界末日的迹象"
-                                        data-original="/upload/vod/20221025-1/eb1a083c4c1cc5dbf897abb0edcd64cc.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2014</span><span
-                                            class="pic-text text-right">正片</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368091/"
-                                                title="十二生肖：世界末日的迹象">十二生肖：世界末日的迹象</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：克里斯托弗·洛伊德,乔·格拉什,Reilly
-                                            Dolman</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="myui-panel myui-panel-bg clearfix">
-                <div class="myui-panel-box clearfix">
-                    <div class="myui-panel_bd clearfix">
-                        <div class="myui-panel_hd">
-                            <div class="myui-panel__head clearfix">
-                                <h3 class="title">最新连续剧</h3><a class="more text-muted" href="/t/2/">更多<i
-                                        class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <ul class="myui-vodlist clearfix">
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/334309/"
-                                        title="为你着迷"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/137754/33/30123/18168/63328142E7fa0623f/93852c527649a1f3.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至5集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/334309/" title="为你着迷">为你着迷</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：汤百通,Arm Sappanyoo
-                                            Panatkool,杨可安,尼措空·卡琼伯利叻,甘.铁欧苏皖,帕西特·本朋沙瓦,Save Saisawat,塔纳通·宽卡尔,查维缇彭·普颂基缇萨库尔
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/332372/"
-                                        title="依法相爱"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/38426/24/18622/21953/630f418bEc5f9b106/9cb8ae72b8b2abb6.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至15集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/332372/" title="依法相爱">依法相爱</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：李昇基,李世荣</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/264213/"
-                                        title="镰仓殿的13人"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/3580/14/20030/47361/62d7fb28Edb6e1a8e/7beb1a93db9cabec.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至第40集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/264213/" title="镰仓殿的13人">镰仓殿的13人</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：小栗旬,佐藤二朗,中村狮童,野添义弘,横田荣司,小林隆,宫泽理惠,片冈爱之助,小池荣子,宫泽艾玛,大泉洋,金子大地,菅田将晖,迫田孝也,新纳慎也,杉本哲太,山本耕史,中川大志,阿南健治,辻万长,松平健,小泉孝太郎,南沙良,新垣结衣
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368119/"
-                                        title="真的假的"
-                                        data-original="/upload/vod/20221025-1/afce2b1210311d1690499b386cd2c6b2.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至3集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368119/" title="真的假的">真的假的</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/339142/"
-                                        title="飞舞吧！"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/214419/36/21742/16031/633a7cbdE40a188c3/dee6b2342f5faf14.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至17集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/339142/" title="飞舞吧！">飞舞吧！</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：福原遥,高桥克典,永作博美,横山裕,高畑淳子,目黑莲,山崎纮菜,滨正悟,醍醐虎汰朗,佐野弘樹</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/342837/"
-                                        title="执念如影"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/202153/1/28084/638646/634007e9E24c88495/6ffd6e7b130fb425.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第21集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/342837/" title="执念如影">执念如影</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：耿乐,宋洋,朱颜曼滋,高叶,董晴,王婉中,张志浩,陈玺旭,董博,冷小张</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/334028/"
-                                        title="The Empire：法之帝国"
-                                        data-original="/upload/vod/20220925-1/134d0c0954dd237e19d388809563e7f0.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第10集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/334028/" title="The Empire：法之帝国">The
-                                                Empire：法之帝国</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：金宣儿,李美淑,安在旭</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/333624/"
-                                        title="血色土地 第二季"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/64312/4/21332/25532/6328783bE2b0280fa/9d507b10fb296305.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第06集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/333624/" title="血色土地 第二季">血色土地
-                                                第二季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：詹姆斯·内斯比特,罗肯·克兰尼奇,Vanessa
-                                            Emme,Dan Gordon,Vanessa Ifediora,查莲妮·麦肯纳,迪尔梅德·默塔,洛拉·佩蒂克鲁,Brian
-                                            Robinson,维多莉亚·斯莫费特,克里斯·瓦利,唐·威彻利</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/329312/"
-                                        title="遇见混乱"
-                                        data-original="http://img.kuaibozy.net/upload/vod/20220728-1/82e7e643c9f2e0e49493082cb200e2c6.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第10集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/329312/" title="遇见混乱">遇见混乱</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：Patricia Belcher,Isabella
-                                            Pappas,Malachi Barton</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/354304/"
-                                        title="那山那海"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/36310/27/19442/62505/634cf540E16380ddf/e681c93cdcf2be8b.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第11集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/354304/" title="那山那海">那山那海</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：杨铮,张光北,奚望,杨立新,何政军,铁伟光,张植绿,苏丽,米学东</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/342927/"
-                                        title="我们这十年"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/94942/23/26551/57256/63411310Ee3c1f343/6dcfc1433121d851.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第26集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/342927/" title="我们这十年">我们这十年</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：白百何,白宇帆,董勇,郭晓东,侯勇,黄志忠,林一,谭松韵,王凯,王雷,闫妮,杨子姗</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/354403/"
-                                        title="上车家族"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/118153/23/29761/29799/634d623cEcee7f9f4/fb9c14b4d3aedecc.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第06集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/354403/" title="上车家族">上车家族</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：林敏骢,江美仪,鲍起静,丁子朗,郭柏妍,姚宏远,罗毓仪,邓智坚,袁文杰,林颖彤,林景程,黄建东,朱凯婷,邵卓尧,钟晴,姚亦澧,黄嘉雯,秦启维,刘桂芳,苏丽明,黄梓玮,叶凯茵,谭淑莹
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368118/"
-                                        title="射雕英雄传1994"
-                                        data-original="/upload/vod/20221025-1/84264300f0e11bc271fed6bba6dd689a.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">1994</span><span
-                                            class="pic-text text-right">第3集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368118/"
-                                                title="射雕英雄传1994">射雕英雄传1994</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：张智霖,朱茵,罗嘉良,关宝慧,骆应钧,黎耀祥,刘丹,林伟,朱铁和</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/354286/"
-                                        title="灵媒侦探城塚翡翠"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/180712/32/29849/26792/634ce3acE8c00e012/cc3e972c528b4f54.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第02集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/354286/"
-                                                title="灵媒侦探城塚翡翠">灵媒侦探城塚翡翠</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：清原果耶,濑户康史,小芝风花,及川光博,田中道子
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/344221/"
-                                        title="从最尽头徒步5分钟"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/115706/10/29107/20203/63490b4aE7fd999c7/841fd78fc751c8e9.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第03集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/344221/"
-                                                title="从最尽头徒步5分钟">从最尽头徒步5分钟</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：冈田结实,柳俊太郎,竹财辉之助,内山理名,桥本爱实,市川由衣,谷村美月,加藤小夏,宫崎美子</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368117/"
-                                        title="日式风格"
-                                        data-original="/upload/vod/20221025-1/635274d72c691c8a4f21e13371b1877d.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第01集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368117/" title="日式风格">日式风格</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：仲野太贺,市川实日子,要润,KAƵMA,檀丽,石崎Huwie,柄本明,宫泽美保,松川尚瑠辉</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="myui-panel myui-panel-bg clearfix">
-                <div class="myui-panel-box clearfix">
-                    <div class="myui-panel_bd clearfix">
-                        <div class="myui-panel_hd">
-                            <div class="myui-panel__head clearfix">
-                                <h3 class="title">最新综艺</h3><a class="more text-muted" href="/t/3/">更多<i
-                                        class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <ul class="myui-vodlist clearfix">
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368108/"
-                                        title="名人初乃玩 2022"
-                                        data-original="/upload/vod/20221025-1/a972f20f92dae68a2a92fd7e766a3959.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至38期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368108/" title="名人初乃玩 2022">名人初乃玩
-                                                2022</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：蔷蔷</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368107/"
-                                        title="时间的答卷 第二季"
-                                        data-original="/upload/vod/20221025-1/462a98b982e7cfb4d8ed0f38585c1e12.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至1期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368107/" title="时间的答卷 第二季">时间的答卷
-                                                第二季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：吴昊寰,赵卫国</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368106/"
-                                        title="时尚汇 2022"
-                                        data-original="/upload/vod/20221025-1/47f1ee4404eb7048736f0bde0eb2effb.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至76期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368106/" title="时尚汇 2022">时尚汇
-                                                2022</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：李慧玲,李波儿</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368105/"
-                                        title="这！就是街舞 第五季"
-                                        data-original="/upload/vod/20221025-1/12e01fbd09b4a58b0a31c9c1eb40e972.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至20期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368105/" title="这！就是街舞 第五季">这！就是街舞
-                                                第五季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：韩庚,李承铉,刘雨昕,王一博</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368104/"
-                                        title="追梦人之叠彩人生"
-                                        data-original="/upload/vod/20221025-1/24fa32c23d17ddc2813fbd2f45ed91e7.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至6期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368104/"
-                                                title="追梦人之叠彩人生">追梦人之叠彩人生</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：池长庚,蒋昌建,牙牙</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368103/"
-                                        title="一起火锅吧 第三季"
-                                        data-original="/upload/vod/20221025-1/d64baa15998747db1994ff7ecfdd557e.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至9期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368103/" title="一起火锅吧 第三季">一起火锅吧
-                                                第三季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：王一博,韩庚</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368102/"
-                                        title="我们的歌 第四季"
-                                        data-original="/upload/vod/20221025-1/ec340522a76d3f266bb3f12d4eb06d26.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至4期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368102/" title="我们的歌 第四季">我们的歌
-                                                第四季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：张淇,周传雄,杨坤,陈慧娴</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368067/"
-                                        title="一起出发吧"
-                                        data-original="/upload/vod/20221025-1/26ab9ec79db1bed0297b5c1b8ed0834d.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2019</span><span
-                                            class="pic-text text-right">已完结 共12期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368067/" title="一起出发吧">一起出发吧</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：杨烁,陈小春,何猷君,耿乐,包贝尔</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368066/"
-                                        title="想想办法吧！爸爸"
-                                        data-original="/upload/vod/20221025-1/a26a626245be1766b5aef127fd48ae6a.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2020</span><span
-                                            class="pic-text text-right">已完结 共12期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368066/"
-                                                title="想想办法吧！爸爸">想想办法吧！爸爸</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：洪天明,曹帅,陈飞宇,黄贯中,李承铉</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368048/"
-                                        title="这十年·追光者"
-                                        data-original="/upload/vod/20221025-1/46bd05e4cebc3cdd07b126ddaf386481.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">已完结 共12期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368048/" title="这十年·追光者">这十年·追光者</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：何炅</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368045/"
-                                        title="时代医者"
-                                        data-original="/upload/vod/20221025-1/e37277ed8108b9d770e9797176a4a6b9.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至3期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368045/" title="时代医者">时代医者</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：余奇明</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368043/"
-                                        title="今餐有料到 2021"
-                                        data-original="/upload/vod/20221025-1/b1ac76bb93038d4998d4e74618850418.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">连载至285期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368043/" title="今餐有料到 2021">今餐有料到
-                                                2021</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：虞逸峰,欧镇灏,陈子丰,林婍婷,岑日珈</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368013/"
-                                        title="综艺大合集 2022"
-                                        data-original="/upload/vod/20221025-1/01628e50cd8e71cc375594383deb8cec.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至40期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368013/" title="综艺大合集 2022">综艺大合集
-                                                2022</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：贺一航,胡晴雯,胡瓜,许杰辉</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368010/"
-                                        title="世界第一等[ 2022]"
-                                        data-original="/upload/vod/20221025-1/c16e5e4fe3ec86f89f4dda2a0fa0d013.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至20221022期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368010/" title="世界第一等[ 2022]">世界第一等[
-                                                2022]</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368009/"
-                                        title="台湾第一等[ 2022]"
-                                        data-original="/upload/vod/20221025-1/7c7ad83663f1db1c84aacbf40796122d.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2019</span><span
-                                            class="pic-text text-right">更新至20221023期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368009/" title="台湾第一等[ 2022]">台湾第一等[
-                                                2022]</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：小马</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368008/"
-                                        title="超级红人榜[ 2022]"
-                                        data-original="/upload/vod/20221025-1/f7f403cf0fad13501801e6916f55c003.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2010</span><span
-                                            class="pic-text text-right">更新至20221023期</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368008/" title="超级红人榜[ 2022]">超级红人榜[
-                                                2022]</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：于美人,蔡昌宪,许志豪,江惠仪</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="myui-panel myui-panel-bg clearfix">
-                <div class="myui-panel-box clearfix">
-                    <div class="myui-panel_bd clearfix">
-                        <div class="myui-panel_hd">
-                            <div class="myui-panel__head clearfix">
-                                <h3 class="title">最新动漫</h3><a class="more text-muted" href="/t/4/">更多<i
-                                        class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                        <ul class="myui-vodlist clearfix">
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/367996/"
-                                        title="万界独尊"
-                                        data-original="/upload/vod/20221025-1/7c43312ad45984c0057d326f6bb60d59.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2021</span><span
-                                            class="pic-text text-right">更新至73集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/367996/" title="万界独尊">万界独尊</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/367995/"
-                                        title="灵剑尊"
-                                        data-original="/upload/vod/20221025-1/d693b32e835226c489f8b9ca1aa3560b.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2019</span><span
-                                            class="pic-text text-right">更新至326集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/367995/" title="灵剑尊">灵剑尊</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：kinsen,柳知萧,音匣老鬼,冷泉夜月</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/367994/"
-                                        title="武神主宰"
-                                        data-original="/upload/vod/20221025-1/0f24835d0a3e11a73b1368bc0f1e7766.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2020</span><span
-                                            class="pic-text text-right">更新至276集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/367994/" title="武神主宰">武神主宰</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：许子尧,唐泽宗,陈帅,吴凡</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/343381/"
-                                        title="死神 千年血战篇"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/34461/30/16839/28150/6343c54bE79775e59/9d60eedef970157f.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至03集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/343381/" title="死神 千年血战篇">死神
-                                                千年血战篇</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：森田成一,折笠富美子,置鲇龙太郎,杉山纪彰,伊藤健太郎,松冈由贵,朴璐美,菅生隆之,速水奖,桧山修之,三木真一郎,安元洋贵,小西克幸,雪野五月,小野坂昌也,高冈瓶瓶,桑岛法子,樫井笙人,久川绫,稻田彻,大塚明夫,杉田智和,中尾隆圣,立木文彦,石川英郎,楠见尚己,上田耀司,志村知幸,佐藤利奈,恒松步,梅原裕一郎,武内骏辅,竹达彩奈,小野友树,内山夕实,花江夏树,日野聪
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/339140/"
-                                        title="星域四万年"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/183388/40/29513/23165/633a7ba6Ed8d886bf/8758d85ecd22f621.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至6集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/339140/" title="星域四万年">星域四万年</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：叶清,马洋,孟祥龙,王宇航,梁达伟</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/367993/"
-                                        title="诛仙"
-                                        data-original="/upload/vod/20221025-1/81d660ae2e7198b3379dc8e370d04136.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至15集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/367993/" title="诛仙">诛仙</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：锦鲤,段艺璇,江月,林柏青,赵梦娇,路扬</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/367992/"
-                                        title="仙墓"
-                                        data-original="/upload/vod/20221025-1/08895162abd517735b2b00b67c4cb92a.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至37集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/367992/" title="仙墓">仙墓</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：楠风,残月的枫影,花笙,洛寒鸦,漠漠,三金,遂非
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/367991/"
-                                        title="我靠充值当武帝"
-                                        data-original="/upload/vod/20221025-1/8875a6e04dae5107f4bcf67eb7794b2d.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">0</span><span
-                                            class="pic-text text-right">更新至41集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/367991/" title="我靠充值当武帝">我靠充值当武帝</a>
-                                        </h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/367990/"
-                                        title="妈咪快跑：爹地追来了"
-                                        data-original="/upload/vod/20221025-1/c89fb885873b391bfb683bd5a0fc098b.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">0</span><span
-                                            class="pic-text text-right">更新至147集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/367990/"
-                                                title="妈咪快跑：爹地追来了">妈咪快跑：爹地追来了</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/367989/"
-                                        title="星武神诀 第二季"
-                                        data-original="/upload/vod/20221025-1/f5f9018736c024f8c45f72c996173f39.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">更新至39集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/367989/" title="星武神诀 第二季">星武神诀
-                                                第二季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/343550/"
-                                        title="又酷又有点冒失的男孩子们"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/178400/10/27372/21343/6344de8bE078b3c15/9e6014340b32949b.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">0</span><span
-                                            class="pic-text text-right">更新至03集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/343550/"
-                                                title="又酷又有点冒失的男孩子们">又酷又有点冒失的男孩子们</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：小林千晃,内山昂辉,梅原裕一郎,千叶翔也</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/354385/"
-                                        title="飙速宅男 第五季"
-                                        data-original="https://image.smxjysm.com/cover/d68afad13567fe66afab1323c355deaf.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第3集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/354385/" title="飙速宅男 第五季">飙速宅男
-                                                第五季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">
-                                            主演：鸟海浩辅,福岛润,宫田幸季,岸尾大辅,松冈祯丞,中村悠一,伊藤健太郎,森久保祥太郎,下野纮,安元洋贵,羽多野涉,小野大辅,阿部敦,野岛健儿,宫野真守,前野智昭,吉野裕行,柿原彻也,日野聪,内田雄马,游佐浩二,铃木千寻,诹访彩花,诹访部顺一,潘惠美,堀内贤雄
-                                        </p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/332412/"
-                                        title="最终魂意"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/136751/37/30511/345022/63102163Ee12cddff/b1adad67068633e2.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第19集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/332412/" title="最终魂意">最终魂意</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/329897/"
-                                        title="开局一个修仙系统"
-                                        data-original="http://dd-static.jd.com/ddimg/jfs/t1/105290/18/31345/207608/62e8f6cfEbca8916d/25d377f3fa24004b.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第24集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/329897/"
-                                                title="开局一个修仙系统">开局一个修仙系统</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368116/"
-                                        title="石少侠感觉好孤单（精编版）"
-                                        data-original="/upload/vod/20221025-1/d3ff1ddbc8ea908434647f76a1edac07.jpg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">第15集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368116/"
-                                                title="石少侠感觉好孤单（精编版）">石少侠感觉好孤单（精编版）</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：内详</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-lg-8 col-md-6 col-sm-4 col-xs-3 hidden-xs hidden-sm">
-                                <div class="myui-vodlist__box"><a class="myui-vodlist__thumb lazyload" href="/k/368109/"
-                                        title="仙帝归来 第二季"
-                                        data-original="/upload/vod/20221025-1/1a57e68007f7065d7123334bfdceb18e.jpeg"><span
-                                            class="play hidden-xs"></span><span class="pic-tag pic-tag-top"
-                                            style="background-color: #ee5a5a;">2022</span><span
-                                            class="pic-text text-right">连载至2集</span></a>
-                                    <div class="myui-vodlist__detail">
-                                        <h4 class="title text-overflow"><a href="/k/368109/" title="仙帝归来 第二季">仙帝归来
-                                                第二季</a></h4>
-                                        <p class="text text-overflow text-muted hidden-xs">主演：张英,唐泽宗</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="myui-foot clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-pd text-center">
-                    <p>本站所有视频和图片均来自互联网收集而来，版权归原创者所有，本网站只提供web页面服务，并不提供资源存储，也不参与录制、上传<br>若本站收录的节目无意侵犯了贵司版权，请发邮件至123456@qq.com
-                        （我们会在3个工作日内删除侵权内容，谢谢。）</p>
-                    <p class="hidden-xs"><a target="_blank" href="/map/">网站地图</a><span class="split-line"></span><a
-                            target="_blank" href="/rss.xml">RSS订阅</a><span class="split-line"></span><a target="_blank"
-                            href="/rss/baidu.xml">百度蜘蛛</a><span class="split-line"></span><a target="_blank"
-                            href="/rss/google.xml">谷歌地图</a><span class="split-line"></span><a target="_blank"
-                            href="/rss/bing.xml">必应地图</a><span class="split-line"></span><a target="_blank"
-                            href="/rss/so.xml">360地图</a><span class="split-line"></span><a target="_blank"
-                            href="/rss/sogou.xml">搜狗地图</a></p>
-                    <p class="margin-0">© 平等 互助 分享 自由 高清 免费 ©</p>
-                    <div class="tongji">
-                        <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-                        <script>LA.init({ id: "Jg8k3MNyh2cUDPJC", ck: "Jg8k3MNyh2cUDPJC" })</script>
+<div class="head">
+	<div class="nav">
+		<a href="/"  class="on" target="_self"><i class="iconfont icon-home"></i>首页</a>
+		
+			<a href="/type/1-1.html">电影</a>
+		
+			<a href="/type/2-1.html">连续剧</a>
+		
+			<a href="/type/4-1.html">动漫</a>
+		
+		
+			<a href="/type/3-1.html">综艺</a>
+		
+			<a href="/type/14-1.html">韩剧</a>
+		
+			<a href="/type/15-1.html">美剧</a>
+		
+		<!--<a href="/gbook/index.html">留言</a>-->
+	</div>
+</div>
+<div class="srh">
+		<form action="/index.php?m=vod-search" method="post" class="sos">
+			<div class="t">
+				<input type="text" onblur="if(this.value==''){ this.value='请输入关键词';}" onfocus="if(this.value=='请输入关键词'){this.value='';}" value="请输入关键词" autocomplete="off" name="wd">
+			</div>
+			<div class="b">
+				<button type="submit" name="search"><i class="iconfont icon-search"></i></button>
+			</div>
+		</form>
+</div>
 
-                        <head>
-                            <meta name="referrer" content="always">
-                        </head>
-                        <meta name="referrer" content="no-referrer" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="myui-msg__form ajax_login"
-        style="display: none; width: 290px; padding: 50px 30px 20px; margin: 0; box-shadow: none;">
-        <div class="myui-panel clearfix">
-            <div class="myui-panel-box clearfix">
-                <div class="myui-panel_bd">
-                    <div class="myui-msg__head text-center">
-                        <p>登录账号</p>
-                    </div>
-                    <form class="mac_login_form">
-                        <p><input type="text" class="form-control" name="user_name" placeholder="手机/登录账号"></p>
-                        <p><input type="password" class="form-control" name="user_pwd" placeholder="登录密码"></p>
-                        <p><img class="mac_verify_img pull-right" src="/verify/index/" height="35"
-                                onclick="this.src = this.src+'?'"><input type="text" class="form-control" name="verify"
-                                placeholder="验证码" style="display: inline-block; width: 100px;"></p>
-                        <p><a href="javascript:;" class="btn btn-block btn-primary login_form_submit">登录</a></p>
-                        <p><a class="pull-right" href="/user/reg/">注册</a><a href="/user/findpass/">忘记密码</a></p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <ul class="myui-extra clearfix">
-        <li><a class="backtop" href="javascript:scroll(0,0)" title="返回顶部" style="display: none;"><i
-                    class="fa fa-angle-up"></i></a></li>
-        <li class="visible-xs"><a class="open-share" href="javascript:;" title="分享给朋友"><i
-                    class="fa fa-share-alt"></i></a></li>
-        <li class="dropdown-hover hidden-xs"><a href="javascript:;" title="关注我们"
-                onclick="MyTheme.Layer.Img('关注我们','/template/mytheme/statics/image/20211004/9542c189a.png','扫一扫关注我们')"><i
-                    class="fa fa-wechat"></i></a>
-            <div class="dropdown-box right fadeInDown clearfix">
-                <div class="item text-center">
-                    <div class="qrcode-box"><img class="img-responsive"
-                            src="/template/mytheme/statics/image/20211004/9542c189a.png" /></div>
-                    <p>扫一扫关注我们</p>
-                </div>
-            </div>
-        </li>
-        <li><a href="/gbook" title="留言反馈"><i class="fa fa-commenting"></i></a></li>
-        <li><a href="http://a.vod.fit:668/web/wxgzh.html" title="APP下载"><i class="fa fa-cloud-download"></i></a></li>
-        <li><a href="/index" title="首页"><i class="fa fa-university"></i></a></li>
+<div class="srh">
+    <h5 style="line-height: 26px;color: red;">&nbsp;观影提示 : <br>1.本站资源永久免费, 没有任何付费, 谨防受骗<br>2.为了网站更新存活下去，请多推荐给你的朋友，感谢!</h5>
+</div>
+<!--/Nav-->
+
+<div class="tbox2">
+	<div class="tbox_t">
+		<h3><i class="iconfont icon-fire"></i>热门推荐</h3>
+		<a href="/">更多热门&nbsp;<i class="iconfont icon-right"></i></a>
+	</div>
+	<ul class="tbox_m2">
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/221764.html" title="斗破苍穹年番" data-original="http://cdn.babakan.xyz/images/upload/dbio2/c6983ee0b94adcfa8fb317ba9dc64182/3ca2c396312f480a30f9e7603f5258c3.jpg">
+			<span>连载17集</span>
+		</a>
+		<h4><a href="/detail/221764.html" title="斗破苍穹年番">斗破苍穹年番</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/60781.html" title="武神主宰" data-original="https://pic.wujinpp.com/upload/vod/20210815-1/217106efb768de215718cad99b4d0d3a.jpg">
+			<span>更新至279集</span>
+		</a>
+		<h4><a href="/detail/60781.html" title="武神主宰">武神主宰</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/111629.html" title="我气哭了百万修炼者" data-original="https://pic.wujinpp.com/upload/vod/20211118-1/f4f61da9ecc3b2a4083b26418c8ddccd.jpg">
+			<span>更新至131集</span>
+		</a>
+		<h4><a href="/detail/111629.html" title="我气哭了百万修炼者">我气哭了百万修炼者</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/68070.html" title="绝世武魂" data-original="https://pic.wujinpp.com/upload/vod/20210815-1/7cb219faf69bd76758041b496d1b6141.jpg">
+			<span>更新至216集</span>
+		</a>
+		<h4><a href="/detail/68070.html" title="绝世武魂">绝世武魂</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/224832.html" title="间谍过家家第二季" data-original="http://cdn.babakan.xyz/images/upload/dbio9/76dc9577e9a40fcb3461a8dc38c7c26f/0f9bfc621583da487d7724ed3ba9053e.jpg">
+			<span>更新至06集</span>
+		</a>
+		<h4><a href="/detail/224832.html" title="间谍过家家第二季">间谍过家家第二季</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/225101.html" title="王后伞下" data-original="https://pic.wujinpp.com/upload/vod/20221015-1/5ca6ab79ede004d913b1117c6361691e.jpg">
+			<span>更新至07集</span>
+		</a>
+		<h4><a href="/detail/225101.html" title="王后伞下">王后伞下</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/224710.html" title="千元律师" data-original="https://pic.wujinpp.com/upload/vod/20220923-1/c40b3c34b3c8aa0c30a5334839194525.jpg">
+			<span>更新至11集</span>
+		</a>
+		<h4><a href="/detail/224710.html" title="千元律师">千元律师</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/224724.html" title="三姐妹要勇敢" data-original="https://pic.wujinpp.com/upload/vod/20220925-1/dfaeb697f363125323b7f3d3a81d181b.jpg">
+			<span>更新至13集</span>
+		</a>
+		<h4><a href="/detail/224724.html" title="三姐妹要勇敢">三姐妹要勇敢</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/224709.html" title="金汤匙" data-original="https://pic.wujinpp.com/upload/vod/20220923-1/3f3af5489fb984977e9ce07d39427c99.jpg">
+			<span>更新至14集</span>
+		</a>
+		<h4><a href="/detail/224709.html" title="金汤匙">金汤匙</a></h4>
+		</li>
+		
     </ul>
-    <script type="text/javascript">MyTheme.Images.Qrcode.Init();</script>
-    <script
-        type="text/javascript"> document.onkeydown = function () { var e = window.event || arguments[0]; if (e.keyCode == 123) { alert('你知道的太多了！'); return false; } if ((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)) { alert('你知道的太多了！'); return false; } if ((e.ctrlKey) && (e.keyCode == 85)) { alert('你知道的太多了！'); return false; } if ((e.ctrlKey) && (e.keyCode == 83)) { alert('你知道的太多了！'); return false; } }var threshold = 160; window.setInterval(function () { if (window.outerWidth - window.innerWidth > threshold || window.outerHeight - window.innerHeight > threshold) { function disableDebugger() { debugger; } $(document).ready(function () { disableDebugger(); }); } }, 1e3); </script>
-</body>
+</div>
 
+<div class="tbox2">
+	<div class="tbox_t">
+		<h3><i class="iconfont icon-fire"></i>电影</h3>
+		<a href="/type/1-1.html">更多电影&nbsp;<i class="iconfont icon-right"></i></a>
+	</div>
+	<ul class="tbox_m2">
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/224974.html" title="万里归途" data-original="https://pic.wujinpp.com/upload/vod/20221008-1/24dfa90aee27b4de38f19d63678c6bc1.jpg">
+			<span>TC完整版</span>
+		</a>
+		<h4><a href="/detail/224974.html" title="万里归途">万里归途</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/221766.html" title="独行月球" data-original="https://pic.wujinpp.com/upload/vod/20220731-1/1161ffdb966dfecfd41f59f949daf9e9.jpg">
+			<span>HD</span>
+		</a>
+		<h4><a href="/detail/221766.html" title="独行月球">独行月球</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/212699.html" title="红杏" data-original="https://pic.wujinpp.com/upload/vod/20220517-1/79dcfcdbb511336a17519347cdb2159e.jpg">
+			<span>HD</span>
+		</a>
+		<h4><a href="/detail/212699.html" title="红杏">红杏</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/223508.html" title="新神榜：杨戬" data-original="https://pic.wujinpp.com/upload/vod/20220830-1/20aa82d006aa7b50add9eb7c865d8597.jpg">
+			<span>HD修正</span>
+		</a>
+		<h4><a href="/detail/223508.html" title="新神榜：杨戬">新神榜：杨戬</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/225162.html" title="黑亚当" data-original="https://pic.wujinpp.com/upload/vod/20221020-1/366686df2ffb28858477037710082d37.jpg">
+			<span>HD尝鲜</span>
+		</a>
+		<h4><a href="/detail/225162.html" title="黑亚当">黑亚当</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/173427.html" title="无人区" data-original="https://pic.wujinpp.com/upload/vod/20210706-1/fda022f76bfc9ea6df91e940664e837e.jpg">
+			<span>HD</span>
+		</a>
+		<h4><a href="/detail/173427.html" title="无人区">无人区</a></h4>
+		</li>
+		
+    </ul>
+</div>
+
+<div class="tbox2">
+	<div class="tbox_t">
+		<h3><i class="iconfont icon-fire"></i>连续剧</h3>
+		<a href="/type/2-1.html">更多连续剧&nbsp;<i class="iconfont icon-right"></i></a>
+	</div>
+	<ul class="tbox_m2">
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/225369.html" title="点燃我，温暖你" data-original="http://cdn.babakan.xyz/images/upload/dbio1/bcf710f1a3584bfd38e9945b8772a9cd/d7e52b1bfd46769a6f6c4e7920d73485.jpg">
+			<span>更新至07集</span>
+		</a>
+		<h4><a href="/detail/225369.html" title="点燃我，温暖你">点燃我，温暖你</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/225350.html" title="不期而至" data-original="https://pic.wujinpp.com/upload/vod/20221102-1/d6b4103dc87029edaafa4b64db7d661c.jpg">
+			<span>更新至11集</span>
+		</a>
+		<h4><a href="/detail/225350.html" title="不期而至">不期而至</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/224763.html" title="唐朝诡事录" data-original="https://pic.wujinpp.com/upload/vod/20220927-1/7cf5451b108b802808942784dfebae5d.jpg">
+			<span>完结</span>
+		</a>
+		<h4><a href="/detail/224763.html" title="唐朝诡事录">唐朝诡事录</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/185952.html" title="黑白禁区" data-original="https://pic.wujinpp.com/upload/vod/20220618-1/64aa7150219be8abb21462615933fd4b.jpg">
+			<span>44集全</span>
+		</a>
+		<h4><a href="/detail/185952.html" title="黑白禁区">黑白禁区</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/209213.html" title="夜深人不静" data-original="https://pic.wujinpp.com/upload/vod/20210630-1/df320d8110c4895d4c44be82b44d7def.jpg">
+			<span>11集全</span>
+		</a>
+		<h4><a href="/detail/209213.html" title="夜深人不静">夜深人不静</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/225234.html" title="法证先锋5国语" data-original="https://pic.wujinpp.com/upload/vod/20221026-1/a9d10c3991d0cca62ad33acc76c1ced3.jpg">
+			<span>更新至13集</span>
+		</a>
+		<h4><a href="/detail/225234.html" title="法证先锋5国语">法证先锋5国语</a></h4>
+		</li>
+		
+    </ul>
+</div>
+
+<div class="tbox2">
+	<div class="tbox_t">
+		<h3><i class="iconfont icon-fire"></i>综艺</h3>
+		<a href="/type/3-1.html">更多综艺&nbsp;<i class="iconfont icon-right"></i></a>
+	</div>
+	<ul class="tbox_m2">
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/225395.html" title="奔跑吧·共同富裕篇" data-original="http://cdn.babakan.xyz/images/upload/dbio9/bf1b190fdfa6145dc82a1516032fe48d/f3ace92e57c55946dd265cc3145f92a0.jpg">
+			<span>更新至20221105</span>
+		</a>
+		<h4><a href="/detail/225395.html" title="奔跑吧·共同富裕篇">奔跑吧·共同富裕篇</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/165507.html" title="你好星期六" data-original="https://pic.wujinpp.com/upload/vod/20220102-1/e23fad3e39e2ca7d273566770c8ceefa.jpg">
+			<span>更新至20221015</span>
+		</a>
+		<h4><a href="/detail/165507.html" title="你好星期六">你好星期六</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/223198.html" title="披荆斩棘第二季" data-original="https://pic.wujinpp.com/upload/vod/20220819-1/2cf9b3fbd50d55e4f67b41935a5406bc.jpg">
+			<span>更新至20221105</span>
+		</a>
+		<h4><a href="/detail/223198.html" title="披荆斩棘第二季">披荆斩棘第二季</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/223567.html" title="脱口秀大会第五季" data-original="https://pic.wujinpp.com/upload/vod/20220830-1/9b25a9dcc8604d9404e6b3525096f0b0.jpg">
+			<span>更新至20221103</span>
+		</a>
+		<h4><a href="/detail/223567.html" title="脱口秀大会第五季">脱口秀大会第五季</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/220153.html" title="密室大逃脱第四季" data-original="https://pic.wujinpp.com/upload/vod/20220708-1/28adf2353fdd114c51f0c3dce5681eb5.jpg">
+			<span>更新至20221103</span>
+		</a>
+		<h4><a href="/detail/220153.html" title="密室大逃脱第四季">密室大逃脱第四季</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/225308.html" title="我们的滚烫人生2" data-original="https://pic.wujinpp.com/upload/vod/20221030-1/56f139fb9db443f7cf4de7df0d1334c1.jpg">
+			<span>更新至20221030</span>
+		</a>
+		<h4><a href="/detail/225308.html" title="我们的滚烫人生2">我们的滚烫人生2</a></h4>
+		</li>
+		
+    </ul>
+</div>
+
+<div class="tbox2">
+	<div class="tbox_t">
+		<h3><i class="iconfont icon-fire"></i>动漫</h3>
+		<a href="/type/4-1.html">更多动漫&nbsp;<i class="iconfont icon-right"></i></a>
+	</div>
+	<ul class="tbox_m2">
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/13040.html" title="斗罗大陆" data-original="https://pic.wujinpp.com/upload/vod/20210801-1/6cc25166bb84263c4509d64a76b0f539.jpg">
+			<span>更新至233集</span>
+		</a>
+		<h4><a href="/detail/13040.html" title="斗罗大陆">斗罗大陆</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/221764.html" title="斗破苍穹年番" data-original="http://cdn.babakan.xyz/images/upload/dbio2/c6983ee0b94adcfa8fb317ba9dc64182/3ca2c396312f480a30f9e7603f5258c3.jpg">
+			<span>连载17集</span>
+		</a>
+		<h4><a href="/detail/221764.html" title="斗破苍穹年番">斗破苍穹年番</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/61067.html" title="吞噬星空" data-original="https://pic.wujinpp.com/upload/vod/20210927-1/3a86c81f9c0b42c6d4338de5f98aa80d.jpg">
+			<span>更新至60集</span>
+		</a>
+		<h4><a href="/detail/61067.html" title="吞噬星空">吞噬星空</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/61268.html" title="完美世界" data-original="https://pic.wujinpp.com/upload/vod/20211120-1/6cd2790b40c1ebaaf46b807de3d7cf04.jpg">
+			<span>更新至83集</span>
+		</a>
+		<h4><a href="/detail/61268.html" title="完美世界">完美世界</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/177620.html" title="终末的后宫" data-original="https://pic.wujinpp.com/upload/vod/20220115-1/0e95ef0b6f4c26a69ffcb9e3a6ae0371.jpg">
+			<span>更新至11集 </span>
+		</a>
+		<h4><a href="/detail/177620.html" title="终末的后宫">终末的后宫</a></h4>
+		</li>
+		
+        <li class="vbox">
+		<a class="vbox_t item-lazy" href="/detail/139502.html" title="海贼王" data-original="https://pic.wujinpp.com/upload/vod/20210707-1/3f864cec3cd0fb6cfbc0d10520ee934d.jpg">
+			<span>更新至1038集</span>
+		</a>
+		<h4><a href="/detail/139502.html" title="海贼王">海贼王</a></h4>
+		</li>
+		
+    </ul>
+</div>
+
+</div>
+<div class="foot">
+	<p><a href="/">返回首页</a><span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="javascript:scroll(0, 0)">返回顶部</a></p>
+	<p>本网站资源均系收集于各大视频网站，本网站只提供web页面服务，并不提供影片资源存储，也不参与录制、若无意侵犯了贵司版权，请给邮箱 000@gmail.com 地址来信，我们会及时处理和回复，谢谢！</p>
+</div>
+
+<script type="text/javascript" src="/static/globalDialog.js"></script>
+<script type="text/javascript" src="/static/copyright.js"></script>
+
+<div style="display:none">
+	
+	
+	<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+	<script>LA.init({id: "Jd5UUbTS593hdwUX",ck: "Jd5UUbTS593hdwUX"})</script>
+	
+	
+	<script type="text/javascript">
+	  function toDevtools(){
+        let numbers = 0;
+        let devtools = new Date();
+        devtools.toString = function() {
+            numbers++;
+            if (numbers > 1) {
+                //location.replace('http://www.baidu.com');
+            }
+        }
+        console.log('', devtools);
+      }
+      toDevtools();
+	</script>
+	
+</div>
+
+<div style="">
+	<script src="/static/jquerys.js?v=202211061025"></script>
+</div>
+</body>
 </html>
