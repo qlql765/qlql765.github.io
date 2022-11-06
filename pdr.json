@@ -1,5 +1,5 @@
 {  
-    "spider": "https://qlql765.github.io/jar/pdr1106.jar;md5;41ADC42519E9DEEBB135EEEA035D59EB",
+    "spider": "https://qlql765.github.io/jar/pdr1106.jar;md5;c209cbb52503d0a03a56a53f5e78b5dd",
     "sites": [
   {"key":"Zjdr","name":"追剧达人","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"778e8966ec0e9c0ae0b4682ad3550f40"},
   {"key":"Tian","name":"天天","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"bdc1c75081e5e477189a463baa47e392"},
