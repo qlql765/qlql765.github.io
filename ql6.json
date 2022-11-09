@@ -122,7 +122,7 @@
     
     {"key":"csp_QQ", "name":" 🐧腾讯（解析）",    "type":3,"api":"csp_QQ",    "searchable":1,"quickSearch":1,"filterable":1},
     
-    {"key":"MGTV",   "name":" 🥭芒果（解析）",    "type":3,"api":"csp_MGTV",   "searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"MGTV",   "name":" 🍋芒果（解析）",    "type":3,"api":"csp_MGTV",   "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"IQIYI",  "name":" 🥝爱奇异（解析）",  "type":3,"api":"csp_IQIYI",  "searchable":1,"quickSearch":1,"filterable":1},
     
