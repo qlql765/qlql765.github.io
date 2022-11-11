@@ -1,6 +1,6 @@
 {
     //爬虫
-    "spider":"https://qlql765.github.io/fty/xo1107.jar;md5;13B538EEB26B4E621D269C831D289B67",
+    "spider":"https://qlql765.github.io/fty/xo1110.jar;md5;89C9EAEC380DC16EC274B772346270BA",
     
     // 直播
     "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9xbHFsNzY1LmdpdGh1Yi5pby9saXZlL3lnYmgxMTA4LnR4dA=="]}]}],
@@ -37,7 +37,7 @@
     {"key":"少儿",   "name":" 📚少儿教育","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/bili/少儿教育.json"},
     {"key":"幼儿",   "name":" 📚幼儿乐园","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/bili/幼儿乐园.json"},
     
-    {"key":"Gitcafe","name":" 📜小纸条 ",    "type":3,"api": "csp_Gitcafe","playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
+    {"key":"Gitcafe","name":" 📜小纸条 ",  "type":3,"api": "csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
     
     {"key":"追剧喵", "name":" 🐈追剧喵 ",      "type":3,"api":"csp_ZJMiao",   "searchable":1,"quickSearch":1,"filterable":1},
     
@@ -89,7 +89,7 @@
 
     {"key":"csp_Anfuns","name":"🎀Anfuns","type":3,"api":"csp_Anfuns","searchable":1,"quickSearch":1,"filterable":1},
     
-    {"key": "Yj1211","name": " 📹️在线直播 ","type": 3,"api": "csp_Yj1211","searchable": 1,"quickSearch": 1,"filterable": 1},
+    {"key": "Yj1211","name": " 📹️在线直播 ","type": 3,"api": "csp_Yj1211","searchable": 0,"quickSearch": 0,"filterable": 0},
     
     {"key":"BBB",    "name":" 📺哔哩套餐","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://qlql765.github.io/bili/Bili1.json"},
     
@@ -116,13 +116,13 @@
     {"key": "csp_xb_qsp","name": "❤️氢视频┃XBiu","type": 3,"api": "csp_XBiu","searchable": 1,"quickSearch": 1,"filterable":0,"ext": "http://h1080p.com/index.php/vod/show/id/{cateId}/page/{catePg}.html"},
     {"key": "csp_XBiu口袋影视","name": "❤️口袋影视┃XBiu","type": 3,"api":"csp_XBiu","searchable": 1,"quickSearch": 1,"filterable":0,"ext": "http://www.koudaitv.com/type/{cateId}-{catePg}.html"},
     {"key":"csp_XBiu_23","name":"❤️23┃XBiu","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://222.186.150.32/vodshow/id/{cateId}/page/{catePg}.html"},
-    {"key":"csp_XBiu_555","name":"❤️555┃XBiu","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://www.555yy1.com/vodtype/{cateId}.html"},
+    //{"key":"csp_XBiu_555","name":"❤️555┃XBiu","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://www.555yy1.com/vodtype/{cateId}.html"},
     
     {"key":"SP360",  "name":" 3️⃣360(解析）",    "type":3,"api":"csp_SP360",  "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"csp_QQ", "name":" 🐧腾讯（解析）",    "type":3,"api":"csp_QQ",    "searchable":1,"quickSearch":1,"filterable":1},
     
-    {"key":"MGTV",   "name":" 🍋芒果（解析）",    "type":3,"api":"csp_MGTV",   "searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"MGTV",   "name":" 🍋芒果（解析）",    "type":3,"api":"csp_Mgtv",   "searchable":1,"quickSearch":1,"filterable":1},
     
     {"key":"IQIYI",  "name":" 🥝爱奇异（解析）",  "type":3,"api":"csp_IQIYI",  "searchable":1,"quickSearch":1,"filterable":1},
     
@@ -130,15 +130,15 @@
     
     {"key":"萌蛋蛋", "name":" 🍳萌蛋蛋(解析) ",   "type":3,"api":"csp_AppYsV2", "searchable":1,"quickSearch":1,"filterable":1,"ext":"http://app.mengdandan.com/xgapp.php/v1/"},
     
-    {"key":"AliPS",  "name":" 😻盘搜 ",           "type":3,"api":"csp_AliPS",  "playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
+    {"key":"AliPS",  "name":" 😻盘搜 ",           "type":3,"api":"csp_AliPS",  "searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
     
-    {"key":"FindZY", "name":" 🦊找资源 ",         "type":3,"api":"csp_Zhaozy", "playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
+    {"key":"FindZY", "name":" 🦊找资源 ",         "type":3,"api":"csp_Zhaozy", "searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
     
-    {"key":"Yiso",   "name":" 🆎易搜 ",           "type":3,"api":"csp_Yiso",   "playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
+    {"key":"Yiso",   "name":" 🆎易搜 ",           "type":3,"api":"csp_Yisou",   "searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
     
-    {"key":"Upyunso","name":" ☁️Up云搜 ",        "type":3,"api":"csp_Upyunso", "playerType":1,"searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
+    {"key":"Upyunso","name":" ☁️Up云搜 ",        "type":3,"api":"csp_Upyunso", "searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
     
-    {"key":"push",   "name":" 🍭推送 ",         "type":3,"api":"csp_PushAgent","playerType":1,"searchable":0,"quickSearch":0,"filterable":0,"ext": "http://ali.饭太硬.ml/tok"}
+    {"key":"push",   "name":" 🍭推送 ",         "type":3,"api":"csp_PushAgent","searchable":0,"quickSearch":0,"filterable":0,"ext": "http://ali.饭太硬.ml/tok"}
     
     ],
     
