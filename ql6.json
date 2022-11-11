@@ -97,26 +97,6 @@
 
     {"key":"csp_XYQBiu_虎牙","name":"🐯虎牙","type":3,"api":"XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://qlql765.github.io/XYQxb/虎牙直播.json"},
     {"key":"csp_XYQBiu_斗鱼","name":"🐟斗鱼","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://qlql765.github.io/XYQxb/斗鱼直播.json"},
-    {"key":"csp_XYQBiu_凌云","name":"🍀凌云┃XYQ","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://qlql765.github.io/XYQxb/凌云影视.json"},
-    {"key":"csp_XYQBiu_万能","name":"🍀万能┃XYQ","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext": "https://qlql765.github.io/XYQxb/万能影院.json"},
-    {"key":"csp_XYQBiu_大米","name":"🍀大米┃XYQ","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://qlql765.github.io/XYQxb/大米星球.json"},
-    
-    {"key":"csp_xBPQ_工场","name":"🍀工场┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/影视工场.json"},	
-    {"key":"csp_xBPQ_不卡","name":"🍀不卡┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/不卡.json"},
-    {"key":"csp_xBPQ_98","name":"🍀98影┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/98影院.json"},
-    {"key":"csp_xBPQ_极品","name":"🍀极品┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/极品.json"},	
-    {"key":"csp_xBPQ_cs","name":"️🍀FREE┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/freeok.json"},
-    {"key":"csp_xBPQ_巨人","name":"🍀巨人┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/巨人.json"},
-    {"key":"csp_xBPQ_牛马","name":"🍀牛马┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/牛马影视.json"},
-    {"key":"csp_xBPQ_皮皮","name":"🍀皮皮┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/皮皮泡.json"},	
-    {"key":"csp_xBPQ_瓜皮TV","name":"🍀瓜皮┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/瓜皮.json"},		
-    {"key":"csp_xBPQ_子子","name":"🍀子子┃xBPQ","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":0,"ext":"https://qlql765.github.io/xBPQ/子子影视.json"},
-    
-    {"key": "csp_xb_1080ys","name": "❤️1080影视┃XBiu","type": 3,"api": "csp_XBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://1080p.tv/vodtype/2/id/{cateId}.html"},
-    {"key": "csp_xb_qsp","name": "❤️氢视频┃XBiu","type": 3,"api": "csp_XBiu","searchable": 1,"quickSearch": 1,"filterable":0,"ext": "http://h1080p.com/index.php/vod/show/id/{cateId}/page/{catePg}.html"},
-    {"key": "csp_XBiu口袋影视","name": "❤️口袋影视┃XBiu","type": 3,"api":"csp_XBiu","searchable": 1,"quickSearch": 1,"filterable":0,"ext": "http://www.koudaitv.com/type/{cateId}-{catePg}.html"},
-    {"key":"csp_XBiu_23","name":"❤️23┃XBiu","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://222.186.150.32/vodshow/id/{cateId}/page/{catePg}.html"},
-    //{"key":"csp_XBiu_555","name":"❤️555┃XBiu","type":3,"api":"csp_XBiu","searchable":1,"quickSearch":1,"filterable":0,"ext": "https://www.555yy1.com/vodtype/{cateId}.html"},
     
     {"key":"SP360",  "name":" 3️⃣360(解析）",    "type":3,"api":"csp_SP360",  "searchable":1,"quickSearch":1,"filterable":1},
     
