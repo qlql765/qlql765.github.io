@@ -1,6 +1,6 @@
 {
     //爬虫
-    "spider":"https://jihulab.com/qlql765/q/-/raw/master/fty/xo1110.jar;md5;89C9EAEC380DC16EC274B772346270BA",
+    "spider":"https://qlql765.pages.dev/fty/xo1110.jar;md5;89C9EAEC380DC16EC274B772346270BA",
     
     // 直播
     "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9xbHFsNzY1LmdpdGh1Yi5pby9saXZlL3lnYmgxMTA4LnR4dA=="]}]}],
