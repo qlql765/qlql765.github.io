@@ -32,7 +32,8 @@
 
     {"key":"Bttoo",  "name":" 🇧󠁴󠁴两个BT ",    "type":3,"api":"csp_Bttoo",  "searchable":0,"quickSearch":1,"filterable":1},
 
-    {"key":"csp_Vofl","name":"🎈Voflix","type":3,"api":"csp_Voflix","searchable":1,"quickSearch":1,"filterable":1},
+    //{"key":"csp_Vofl","name":"🎈Voflix","type":3,"api":"csp_Voflix","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_xBPQ_VOFLIX","name":"🎈VOFLIX","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://jihulab.com/qlql765/q/-/raw/master/xBPQ/VOFLIX.json"},
 
     {"key":"DDZY",   "name":" 😎多多资源 ",  "type":1,"api": "https://www.ddzyz1.com/api.php/provide/vod/","searchable": 1,"quickSearch": 1,"filterable": 0,"categories": ["国产剧","港台剧","日韩剧","欧美剧","综艺","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","其他剧","动漫"]},
     
