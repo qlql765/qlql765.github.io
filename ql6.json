@@ -46,7 +46,7 @@
 
     {"key":"Mjxq",   "name":" 🗽美剧星球 ",   "type":3,"api":"csp_Mjxq",     "searchable":0,"quickSearch":1,"filterable":1},
     
-    {"key":"剧荒",   "name":" 🏝︎剧荒TV ",     "type":3,"api":"csp_Juhuang",  "searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"剧荒",   "name":" 🏝︎剧荒TV ",     "type":3,"api":"csp_Juhuang",  "searchable":0,"quickSearch":1,"filterable":1},
     
     {"key":"DiDuan",  "name":" 🌀低端影视 ",   "type":3,"api":"csp_Ddrk",     "searchable":1,"quickSearch":1,"filterable":1},
 
