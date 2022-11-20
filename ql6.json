@@ -3,7 +3,7 @@
     "spider":"https://cf.ql765.top/fty/xo1120.jar;md5;50041E58BE27B2D9E9F67780B22F1773",
     
     // 直播
-    "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9xbHFsNzY1LmdpdGh1Yi5pby9saXZlL3lnYmgxMTA4LnR4dA=="]}]}],
+    "lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9jZi5xbDc2NS50b3AvbGl2ZS95Z2JoMTEyMC50eHQ="]}]}],
     
     //背景图片
     "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
