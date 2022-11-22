@@ -6,7 +6,7 @@
   "分类": "电影&电视剧&动漫&综艺",
   "分类值": "1&2&3&4",
   
-  "分类url": "https://www.1010dy3.com/show/{cateId}{area}{by}{class}{year}/page/{catePg}",
+  "分类url": "https://www.1010dy3.com/show/{cateId}/page/{catePg}",
   
   "副标题": "text-right\">&&</span>",
   
