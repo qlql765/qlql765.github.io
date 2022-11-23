@@ -13,7 +13,7 @@
   "搜索模式": "0",
   "搜索后缀":"/voddetail/",
   
-  "影片年代": "上映：</span><div class=\"module-info-item-content\">&&</div>",
+  "影片年代": "上映：</span>,<div class=\"module-info-item-content\">&&</div>",
   "导演": "导演：&&</div>",
   "主演": "主演：&&</div>",
   "简介": "<p>&&</p>",
