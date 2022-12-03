@@ -1,6 +1,6 @@
 {
 //爬虫
-"spider":"https://cf.qlql.cc/fty/xo1202.jar;md5;B8D426C08BD2741CF1135F2835DC9770",
+"spider":"https://cf.qlql.cc/fty/xo1203.jar;md5;98388BD96327F94EAA9A3C74982F2506",
     
 // 直播
 "lives":[{"name": "FM直播","type": 0,"url": "http://home.jundie.top:81/Cat/tv/live.txt","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"},
