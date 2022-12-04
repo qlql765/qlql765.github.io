@@ -1,6 +1,6 @@
 {
     //爬虫
-    "spider":"https://cf.qlql.cc/fty/xo1203.jar;md5;98388BD96327F94EAA9A3C74982F2506",
+    "spider":"https://cf.qlql.cc/fty/xo1204.jar;md5;EDAAC605B8F6C297B19D34464721F869",
         
     // 直播
     "lives":[{"name": "FM直播","type": 0,"url": "http://home.jundie.top:81/Cat/tv/live.txt","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"},
@@ -17,6 +17,7 @@
     {"key":"csp_fant","name":"🍙饭团","api":"csp_Fantuan","type":3,"filterable":1,"quickSearch":1,"searchable":1},
     {"key":"csp_AppTT","name":"📍图图","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://43.154.35.148:9797/api/tutuapp.php"},
     {"key":"小苹果", "name":"  🍎小苹果 ",   "type":3,"api":"csp_LiteApple","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"csp_ZJMiao","name":"🐼新视觉┃SP","type":3,"api":"csp_Xinsj","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_XPath3_88","name":"⚽88看球","type":3,"api":"csp_XPath3","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://cf.qlql.cc/xp/88看球.json"},
     {"key":"csp_xpath_qiumi","name":"⚽Jrs球迷","type": 3,"api": "csp_XPath3","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://cf.qlql.cc/xp/JRS赛事看球.json"},
     {"key":"csp_xBPQ_乐猪","name":"🐖乐猪","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cf.qlql.cc/xBPQ/乐猪TV.json"},
@@ -25,7 +26,6 @@
     {"key":"Bttoo",  "name":" 🇧󠁴󠁴两个BT ",    "type":3,"api":"csp_Bttoo",  "searchable":0,"quickSearch":1,"filterable":1},
     {"key":"csp_Vofl","name":"🎈Voflix","type":3,"api":"csp_Voflix","searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_Lgyy","name": "🔃蓝光","type": 3,"api": "csp_Lgyy","searchable": 1,"quickSearch": 1,"filterable": 1},
-    {"key":"追剧喵", "name":" 🐈追剧喵 ",      "type":3,"api":"csp_ZJMiao",   "searchable":1,"quickSearch":1,"filterable":1},
     {"key":"剧荒",   "name":" 🏝︎剧荒TV ",     "type":3,"api":"csp_Juhuang",  "searchable":0,"quickSearch":1,"filterable":1},
     {"key":"DiDuan",  "name":" 🌀低端影视 ",   "type":3,"api":"csp_Ddrk",     "searchable":1,"quickSearch":1,"filterable":1},
     {"key":"csp_Ysgc","name":"🏭工厂","type":3,"api":"csp_Ysgc","searchable":1,"quickSearch":1,"filterable":1},
@@ -42,14 +42,14 @@
     {"key":"幼儿",   "name":" 📚幼儿乐园","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://cf.qlql.cc/bili/幼儿乐园.json"},
     {"key":"Gitcafe","name":" 📜小纸条 ",  "type":3,"api": "csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
     
-    {"key":"Cokemv","name":"🇨Cokemv","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"b88de1329655cca1beba45aa9776de70","jar":"https://cf.qlql.cc/jar/pdr1130.jar;md5;bb849cca0231f1f83afe64609fc06e8d"},
-    {"key":"世界杯","name":"👫🏻一起看","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8e3aefcba838d8dc5102ac786719d837","jar":"https://cf.qlql.cc/jar/pdr1130.jar;md5;bb849cca0231f1f83afe64609fc06e8d"},
-    {"key":"Zjdr","name":"🏃追剧达人","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"778e8966ec0e9c0ae0b4682ad3550f40","jar":"https://cf.qlql.cc/jar/pdr1130.jar;md5;bb849cca0231f1f83afe64609fc06e8d"},
-    {"key":"Ikan","name": " 💖爱看","type": 3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a4ce9a4ba7d4f4bced2ff9dfc4ab4e50","jar":"https://cf.qlql.cc/jar/pdr1130.jar;md5;bb849cca0231f1f83afe64609fc06e8d"},
-    {"key":"Yanet","name":"🦆鸭奶飞","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"a369b1f623fe86605f1b029f0cf66349","jar":"https://cf.qlql.cc/jar/pdr1130.jar;md5;bb849cca0231f1f83afe64609fc06e8d"},
-    {"key":"Pang","name":"🐅胖虎","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"c41fdb671b20925c76fa9b6ff8bad027","jar":"https://cf.qlql.cc/jar/pdr1130.jar;md5;bb849cca0231f1f83afe64609fc06e8d"},
-    {"key":"Hei","name":"🌰石榴","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"3bff500c8b1e06c052a1b0f1f7a62b45","jar":"https://cf.qlql.cc/jar/pdr1130.jar;md5;bb849cca0231f1f83afe64609fc06e8d"},
-    {"key":"Czsapp","name":"📔厂长","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8ee655f702d0d21f3643504783babbc3","jar":"https://cf.qlql.cc/jar/pdr1130.jar;md5;bb849cca0231f1f83afe64609fc06e8d"},
+{"key":"Cokemv","name":"🇨Cokemv","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"b88de1329655cca1beba45aa9776de70","jar":"https://cf.qlql.cc/jar/pdr1204.jar;md5;7573E5DEE052B6B1661A0BC400F190CC"},
+{"key":"世界杯","name":"👫🏻一起看","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8e3aefcba838d8dc5102ac786719d837","jar":"https://cf.qlql.cc/jar/pdr1204.jar;md5;7573E5DEE052B6B1661A0BC400F190CC"},
+{"key":"Zjdr","name":"🏃追剧达人","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"778e8966ec0e9c0ae0b4682ad3550f40","jar":"https://cf.qlql.cc/jar/pdr1204.jar;md5;7573E5DEE052B6B1661A0BC400F190CC"},
+{"key":"Ikan","name": " 💖爱看","type": 3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a4ce9a4ba7d4f4bced2ff9dfc4ab4e50","jar":"https://cf.qlql.cc/jar/pdr1204.jar;md5;7573E5DEE052B6B1661A0BC400F190CC"},
+{"key":"Yanet","name":"🦆鸭奶飞","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"a369b1f623fe86605f1b029f0cf66349","jar":"https://cf.qlql.cc/jar/pdr1204.jar;md5;7573E5DEE052B6B1661A0BC400F190CC"},
+{"key":"Pang","name":"🐅胖虎","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"c41fdb671b20925c76fa9b6ff8bad027","jar":"https://cf.qlql.cc/jar/pdr1204.jar;md5;7573E5DEE052B6B1661A0BC400F190CC"},
+{"key":"Hei","name":"🌰石榴","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"3bff500c8b1e06c052a1b0f1f7a62b45","jar":"https://cf.qlql.cc/jar/pdr1204.jar;md5;7573E5DEE052B6B1661A0BC400F190CC"},
+{"key":"Czsapp","name":"📔厂长","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8ee655f702d0d21f3643504783babbc3","jar":"https://cf.qlql.cc/jar/pdr1204.jar;md5;7573E5DEE052B6B1661A0BC400F190CC"},
     
     {"key":"csp_Nmys","name":" 🌾农民 ",  "type":3,"api":"csp_Nmys",    "searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cf.qlql.cc/sq/nmys.json"},
     {"key":"csp_Dm84","name":"🚌动漫巴士","type":3,"api":"csp_Dm84","searchable":1,"quickSearch":1,"filterable":1},
