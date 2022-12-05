@@ -37,26 +37,7 @@
 {"key":"csp_ny","name":"🐮念影","type":3,"api":"csp_Nianying","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Nkdy","name":"🎃南柯","type":3,"api":"csp_Nkdy","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Mjxq",   "name":" 🗽美剧星球 ",   "type":3,"api":"csp_Mjxq",     "searchable":0,"quickSearch":1,"filterable":1},
-{
-    "key": "csp_XYQHiker_爱看影视",
-    "name": "🪞爱看影视(XYQH)",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://cf.qlql.cc/XYQ/XYQHiker/爱看影视.json"
-},
-{
-    "key": "csp_XYQHiker_皮皮泡",
-    "name": "🎈皮皮泡(XYQH)",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://cf.qlql.cc/XYQ/XYQHiker/皮皮泡.json"
-},
+
 {"key":"少儿",   "name":" 📚少儿教育","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://cf.qlql.cc/bili/少儿教育.json"},
 {"key":"幼儿",   "name":" 📚幼儿乐园","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://cf.qlql.cc/bili/幼儿乐园.json"},
 {"key":"Gitcafe","name":" 📜小纸条 ",  "type":3,"api": "csp_Gitcafe","searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
