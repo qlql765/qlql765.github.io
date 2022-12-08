@@ -3,6 +3,10 @@
       {
         "name": "Qile",
         "server": "https://alist.qlql.cc"
+      },
+      {
+        "name": "小雅",
+        "server": "http://alist.xiaoya.pro"
       }
     ]
 }
