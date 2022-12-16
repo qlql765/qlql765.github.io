@@ -122,114 +122,54 @@
 {"key":"drpy_js_猫了个咪","name":"影视 | 猫了个咪[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/猫了个咪.js"},
 {"key":"drpy_js_玄天","name":"影视 | 玄天[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/玄天.js"},
 {"key":"drpy_js_瓜皮TV","name":"影视 | 瓜皮TV[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/瓜皮TV.js"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{"key":"drpy_js_腾云驾雾","name":"官源 | 腾讯[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/腾云驾雾.js"},
-{"key":"drpy_js_百忙无果","name":"官源 | 芒果[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/百忙无果.js"},
-{"key":"drpy_js_菜狗","name":"官源 | 搜狗[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/菜狗.js"},
-{"key":"drpy_js_TV云播","name":"影视 | TV云播[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/TV云播.js"},
-{"key":"drpy_js_影渣渣","name":"影视 | 影渣渣[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/影渣渣.js"},
-{"key":"drpy_js_鸭奈飞","name":"影视 | 鸭奈飞[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/鸭奈飞.js"},
-{"key":"drpy_js_NFM影视","name":"影视 | NFM影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/NFM影视.js"},
-
-{"key":"drpy_js_YOKE影视","name":"影视 | YOKE影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/YOKE影视.js"},
-{"key":"drpy_js_酷客影院","name":"影视 | 酷客影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/酷客影院.js"},
-{"key":"drpy_js_饭团电影","name":"影视 | 饭团电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/饭团.js"},
-{"key":"drpy_js_酷云七七","name":"影视 | 酷云七七[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/酷云77.js"},
-{"key":"drpy_js_骚火电影","name":"影视 | 骚火电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/骚火电影.js"},
-{"key":"drpy_js_闪影影院","name":"影视 | 闪影影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/闪影影院.js"},
-{"key":"drpy_js_秋霞影院","name":"影视 | 秋霞影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/秋霞.js"},
-
-{"key":"drpy_js_蜻蜓FM","name":"广播 | 蜻蜓FM[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/蜻蜓FM.js","playerType":"2"},
-{"key":"drpy_js_短视频","name":"聚合 | 短视频[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/短视频.js"},
-{"key":"drpy_js_酷奇MV","name":"MV | 酷奇[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/酷奇MV.js"},
-{"key":"drpy_js_虎牙直播","name":"直播 | 虎牙[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/虎牙直播.js"},
-
-
-
-
-
-
-{"key":"drpy_js_2099电影","name":"影视 | 2099电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/2099电影.js"},
-
-
-{"key":"drpy_js_99影院","name":"影视 | 99影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/99影院.js"},
-{"key":"drpy_js_9U电影","name":"影视 | 9U电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/9U电影.js"},
-
-{"key":"drpy_js_KOK影视","name":"影视 | KOK影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/KOK影视.js"},
-{"key":"drpy_js_爱看影视","name":"影视 | 爱看影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/爱看影视.js"},
-{"key":"drpy_js_爱猫影院","name":"影视 | 爱猫影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/爱猫影院.js"},
-{"key":"drpy_js_艾菲影视","name":"影视 | 艾菲影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/艾菲影视.js"},
-{"key":"drpy_js_八蛋影视","name":"影视 | 八蛋影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/八蛋影视.js"},
-{"key":"drpy_js_超前点播","name":"影视 | 超前点播[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/超前点播.js"},
-{"key":"drpy_js_楚门影院","name":"影视 | 楚门影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/楚门影院.js"},
-{"key":"drpy_js_大猪蹄子","name":"影视 | 大猪蹄子[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/大猪蹄子.js"},
-{"key":"drpy_js_碟调影视","name":"影视 | 碟调影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/碟调影视.js"},
-{"key":"drpy_js_多瑙影视","name":"影视 | 多瑙影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/多瑙影视.js","playerType":"2"},
 {"key":"drpy_js_番茄影视","name":"影视 | 番茄影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/番茄影视.js"},
-{"key":"drpy_js_浮生半日","name":"影视 | 浮生半日[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/浮生半日.js"},
-{"key":"drpy_js_捷华影视","name":"影视 | 捷华影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/捷华影视.js"},
-{"key":"drpy_js_金曼影视","name":"影视 | 金曼影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/金曼影视.js"},
-{"key":"drpy_js_剧迷影院","name":"影视 | 剧迷影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/剧迷.js"},
-{"key":"drpy_js_看BZ影视","name":"影视 | 看BZ影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/看BZ影视.js"},
-{"key":"drpy_js_看看电影","name":"影视 | 看看电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/看看电影.js"},
+{"key":"drpy_js_百忙无果","name":"官源 | 芒果[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/百忙无果.js"},
+{"key":"drpy_js_看一看影视","name":"影视 | 看一看影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/看一看影视.js"},
 {"key":"drpy_js_看了么","name":"影视 | 看了么[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/看了么.js"},
-{"key":"drpy_js_看片狂人","name":"影视 | 看片狂人[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/看片狂人.js"},
-{"key":"drpy_js_快云影院","name":"影视 | 快云影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/快云影院.js"},
+{"key":"drpy_js_看看电影","name":"影视 | 看看电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/看看电影.js"},
+{"key":"drpy_js_看视界","name":"影视 | 看视界[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/看视界.js"},
+{"key":"drpy_js_真不卡","name":"影视 | 真不卡[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/真不卡.js"},
+{"key":"drpy_js_短视频","name":"聚合 | 短视频[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/短视频.js"},
+{"key":"drpy_js_石榴影院","name":"影视 | 石榴影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/石榴影院.js"},
+{"key":"drpy_js_神马影视","name":"影视 | 神马影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/神马影视.js"},
+{"key":"drpy_js_秋霞影院","name":"影视 | 秋霞影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/秋霞.js"},
+{"key":"drpy_js_素白白","name":"影视 | 素白白[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/素白白.js"},
+{"key":"drpy_js_胖虎","name":"影视 | 胖虎[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/胖虎.js"},
+{"key":"drpy_js_腾云驾雾","name":"官源 | 腾讯[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/腾云驾雾.js"},
+{"key":"drpy_js_苹果爱微","name":"影视 | 苹果爱微[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/苹果爱微.js"},
+{"key":"drpy_js_荐片","name":"影视 | 荐片[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/荐片.js"},
+{"key":"drpy_js_莫扎兔","name":"影视 | 莫扎兔[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/莫扎兔.js"},
+{"key":"drpy_js_菜狗","name":"官源 | 搜狗[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/菜狗.js"},
+{"key":"drpy_js_落攻阁影视","name":"影视 | 落攻阁影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/落攻阁影视.js"},
 {"key":"drpy_js_蓝光影院","name":"影视 | 蓝光影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/蓝光影院.js"},
-{"key":"drpy_js_乐动影视","name":"影视 | 乐动影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/乐动影视.js"},
-{"key":"drpy_js_利丽娅电影","name":"影视 | 利丽娅电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/利丽娅电影.js"},
-{"key":"drpy_js_两个 BT","name":"影视 | 两个BT[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/两个BT.js"},
+{"key":"drpy_js_蓝莓影视","name":"影视 | 蓝莓影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/蓝莓影视.js"},
+{"key":"drpy_js_虎牙直播","name":"直播 | 虎牙直播[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/虎牙直播.js"},
+{"key":"drpy_js_蛋蛋赞","name":"影视 | 蛋蛋赞[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/蛋蛋赞.js"},
+{"key":"drpy_js_蜻蜓FM","name":"广播 | 蜻蜓FM[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/蜻蜓FM.js"},
+{"key":"drpy_js_偌讯影视","name":"影视 | 偌讯影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/偌讯影视.js"},
+{"key":"drpy_js_豆芽影院","name":"影视 | 豆芽影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/豆芽影院.js"},
+{"key":"drpy_js_趣享星趣","name":"影视 | 趣享星趣[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/趣享星趣.js"},
+{"key":"drpy_js_跑TV","name":"影视 | 跑TV[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/跑TV.js"},
+{"key":"drpy_js_追剧喵","name":"影视 | 追剧喵[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/追剧喵.js"},
+{"key":"drpy_js_追剧达人","name":"影视 | 追剧达人[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/追剧达人.js"},
+{"key":"drpy_js_酷云七七","name":"影视 | 酷云七七[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/酷云77.js"},
+{"key":"drpy_js_酷奇MV","name":"MV | 酷奇[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/酷奇MV.js"},
+{"key":"drpy_js_酷客影院","name":"影视 | 酷客影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/酷客影院.js"},
 {"key":"drpy_js_量子影视","name":"影视 | 量子影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/量子影视.js"},
-{"key":"drpy_js_麻花影视","name":"影视 | 麻花影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/麻花影视.js"},
-{"key":"drpy_js_蚂蚁影视","name":"影视 | 蚂蚁影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/蚂蚁影视.js"},
+{"key":"drpy_js_饭团电影","name":"影视 | 饭团电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/饭团.js"},
+{"key":"drpy_js_骚火电影","name":"影视 | 骚火电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/骚火.js"},
+{"key":"drpy_js_鸭奈飞","name":"影视 | 鸭奈飞[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/鸭奈飞.js"},
 {"key":"drpy_js_麦豆网","name":"影视 | 麦豆网[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/麦豆.js"},
 {"key":"drpy_js_麦豆com","name":"影视 | 麦豆com[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/麦豆com.js"},
-{"key":"drpy_js_美视网","name":"影视 | 美视网[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/美视网.js"},
-{"key":"drpy_js_米宝影院","name":"影视 | 米宝影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/米宝影院.js"},
-{"key":"drpy_js_莫扎兔儿","name":"影视 | 莫扎兔儿[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/莫扎兔.js"},
-{"key":"drpy_js_南瓜影院","name":"影视 | 南瓜影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/南瓜影院.js"},
-{"key":"drpy_js_胖虎影视","name":"影视 | 胖虎影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/胖虎影视.js"},
-{"key":"drpy_js_霹雳影视","name":"影视 | 霹雳影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/霹雳影视.js"},
-{"key":"drpy_js_皮皮泡儿","name":"影视 | 皮皮泡儿[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/皮皮泡.js"},
-{"key":"drpy_js_七时影院","name":"影视 | 七时影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/七小时影院.js"},
-{"key":"drpy_js_起飞影院","name":"影视 | 起飞影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/起飞影院.js"},
-{"key":"drpy_js_趣享星趣","name":"影视 | 趣享星趣[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/趣享星趣.js"},
-{"key":"drpy_js_盛世电影","name":"影视 | 盛世电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/盛世电影网.js"},
-{"key":"drpy_js_视中影视","name":"影视 | 视中影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/视中心影视.js"},
-{"key":"drpy_js_首播影院","name":"影视 | 首播影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/首播影院.js"},
-{"key":"drpy_js_思乐影视","name":"影视 | 思乐影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/思乐影视.js"},
-{"key":"drpy_js_私人影院","name":"影视 | 私人影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/私人影院.js"},
-{"key":"drpy_js_天天视频","name":"影视 | 天天视频[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/天天视频.js"},
-{"key":"drpy_js_天天影视","name":"影视 | 天天影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/天天影视.js"},
-{"key":"drpy_js_土狗影院","name":"影视 | 土狗影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/土狗影院.js"},
-{"key":"drpy_js_我爱跟剧","name":"影视 | 我爱跟剧[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/我爱跟剧.js"},
-{"key":"drpy_js_西瓜影视","name":"影视 | 西瓜影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/西瓜影视.js"},
-{"key":"drpy_js_伊人追剧","name":"影视 | 伊人追剧[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/伊人追剧.js"},
-{"key":"drpy_js_云播影院","name":"影视 | 云播影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/云播.js"},
-{"key":"drpy_js_真不卡儿","name":"影视 | 真不卡儿[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/真不卡.js"},
-{"key":"drpy_js_追剧达人","name":"影视 | 追剧达人[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/追剧达人.js"},
-{"key":"drpy_js_追剧啦儿","name":"影视 | 追剧啦儿[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/追剧啦.js"},
 
-
-
-
-
-
-
-
+{"key":"drpy_js_爱看电影","name":"影视 | 爱看电影[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/tg/爱看电影.js"},
+{"key":"drpy_js_剧迷影院","name":"影视 | 剧迷影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/tg/剧迷.js"},
+{"key":"drpy_js_快云影院","name":"影视 | 快云影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/tg/快云影院.js"},
+{"key":"drpy_js_两个 BT","name":"影视 | 两个BT[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/tg/两个BT.js"},
+{"key":"drpy_js_皮皮泡","name":"影视 | 皮皮泡[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/tg/皮皮泡.js"},
+{"key":"drpy_js_特狗影视","name":"影视 | 特狗影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/tg/特狗影视.js"},
+{"key":"drpy_js_MXONE","name":"影视 | MXONE[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/tg/MXONE.js"},
+{"key":"drpy_js_Nike影视","name":"影视 | Nike影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/tg/Nike影视.js"},
 
 
 
