@@ -13,7 +13,7 @@
 //站点
 "sites":[ 
 {"key":"drpy_js_007影视","name":"影视 | 007影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/007影视.js"},
-{"key":"drpy_js_1080P","name":"影视 | 1080P[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/1080P.js"},
+//{"key":"drpy_js_1080P","name":"影视 | 1080P[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/1080P.js"},
 {"key":"drpy_js_188看","name":"影视 | 188看[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/188看.js"},
 {"key":"drpy_js_310直播","name":"体育 | 310直播[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/310直播.js"},
 {"key":"drpy_js_360影视","name":"官源 | 360[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/360影视.js"},
