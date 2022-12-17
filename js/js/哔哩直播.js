@@ -47,8 +47,8 @@ var rule = {
     searchable:2,
     quickSearch:0,
     headers:{
-        "User-Agent":"PC_UA"
-        //"Cookie": "" 
+        "User-Agent":"PC_UA",
+        "Cookie": "buvid3=F2E89869-11C6-89E9-5147-3DE500D5183A37809infoc; b_nut=1667439037; i-wanna-go-back=-1; _uuid=95F71F93-9FDE-F478-10797-D927A4A9AC1D48576infoc; buvid4=FFAC04EA-6F31-9958-E9FF-894B1DDF89FB39398-022110309-BEFmx/6H9VrBRhRs0Qb7SfFTKFR73MJ0RyOPT6ayFxdDaPn1J6wIEQ%3D%3D; is-2022-channel=1; fingerprint=ebb73a54ad5068fd91212cf69b397101; buvid_fp_plain=undefined; DedeUserID=1120211857; DedeUserID__ckMd5=67d1022e24b7094a; buvid_fp=ebb73a54ad5068fd91212cf69b397101; CURRENT_QUALITY=80; CURRENT_BLACKGAP=0; b_ut=5; nostalgia_conf=-1; CURRENT_FNVAL=4048; bsource=search_baidu; rpdid=|(u)l|m~Ykk~0J'uY~||Rm))|; b_lsid=687A1E5B_1851EE69ED6; SESSDATA=c5b8f195%2C1686812693%2Cd3fed%2Ac2; bili_jct=7c68a1ffa3ffb9220c31411782c3fd91; innersign=1; sid=69hlic0r" 
         // Cookie获取方法 https://github.com/UndCover/PyramidStore/blob/main/list.md#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9
     },
     timeout:5000,
