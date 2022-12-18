@@ -26,6 +26,7 @@
 {"key":"csp_xpath_qiumi","name":"⚽Jrs球迷","type": 3,"api": "csp_XPath","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "https://cf.qlql.cc/xp/JRS赛事看球.json"},
 {"key":"csp_xBPQ_乐猪","name":"🐖乐猪","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cf.qlql.cc/xBPQ/乐猪TV.json"},
 {"key":"csp_xBPQ_555","name":"5⃣555","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://cf.qlql.cc/xBPQ/555电影.json"},
+{"key":"csp_xBPQ_云镜","name":"云镜","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://v.t-ui.cn/index.php/vod/show/id/{cateId}.html"},
 {"key":"csp_Bd",  "name":" 🅱️哔嘀影视 ","type":3,"api":"csp_Bdys01",  "searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Bttoo",  "name":" 🇧󠁴󠁴两个BT ",    "type":3,"api":"csp_Bttoo",  "searchable":0,"quickSearch":1,"filterable":1},
 {"key":"csp_Vofl","name":"🎈Voflix","type":3,"api":"csp_Voflix","searchable":1,"quickSearch":1,"filterable":1},
