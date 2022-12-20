@@ -168,8 +168,8 @@
 {"key":"drpy_js_天天视频","name":"影视 烂 | 天天视频[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/天天视频.js"},
 {"key":"drpy_js_美剧网","name":"影视 优 | 美剧网[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/美剧网.js"},
 {"key":"drpy_js_Auete","name":"影视 优 | Auete[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/Auete.js"},
-{"key":"drpy_js_云镜","name":"影视 优 | 云镜[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/云镜.js"},
-{"key":"drpy_js_时光","name":"影视 优 | 时光[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/时光.js"},
+{"key":"drpy_js_云镜","name":"影视 良 | 云镜[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/云镜.js"},
+{"key":"drpy_js_时光","name":"影视 良 | 时光[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/时光.js"},
 {"key":"drpy_js_大中影视","name":"影视 优 | 大中影视[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/大中影视.js"},
 
 
