@@ -1,34 +1,34 @@
-// ÓĞËÑË÷ÑéÖ¤
+// æœ‰æœç´¢éªŒè¯
 var rule = {
     title:'Auete',
     host:'https://auete.com',
     // url:'/fyclassfyfilter/indexfypage.html[/fyclassfyfilter/index.html]',
     url:'/fyclassfyfilter/indexfypage.html[/fyclassfyfilter/index.html]',
-    filterable:1,//ÊÇ·ñÆôÓÃ·ÖÀàÉ¸Ñ¡,
+    filterable:1,//æ˜¯å¦å¯ç”¨åˆ†ç±»ç­›é€‰,
     filter_url:'{{fl.class}}',
-    filter: {"Movie":[{"key":"class","name":"¾çÇé","value":[{"n":"È«²¿","v":""},{"n":"Ï²¾çÆ¬","v":"/xjp"},{"n":"¶¯×÷Æ¬","v":"/dzp"},{"n":"°®ÇéÆ¬","v":"/aqp"},{"n":"¿Æ»ÃÆ¬","v":"/khp"},{"n":"¿Ö²ÀÆ¬","v":"/kbp"},{"n":"¾ªã¤Æ¬","v":"/jsp"},{"n":"Õ½ÕùÆ¬","v":"/zzp"},{"n":"¾çÇéÆ¬","v":"/jqp"}]}],"Tv":[{"key":"class","name":"¾çÇé","value":[{"n":"È«²¿","v":""},{"n":"ÃÀ¾ç","v":"/oumei"},{"n":"º«¾ç","v":"/hanju"},{"n":"ÈÕ¾ç","v":"/riju"},{"n":"Ì©¾ç","v":"/yataiju"},{"n":"Íø¾ç","v":"/wangju"},{"n":"Ì¨¾ç","v":"/taiju"},{"n":"¹ú²ú","v":"/neidi"},{"n":"¸Û¾ç","v":"/tvbgj"},{"n":"Ó¢¾ç","v":"/yingju"}]}],"Zy":[{"key":"class","name":"¾çÇé","value":[{"n":"È«²¿","v":""},{"n":"¹ú×Û","v":"/guozong"},{"n":"º«×Û","v":"/hanzong"},{"n":"ÃÀ×Û","v":"/meizong"}]}],"Dm":[{"key":"class","name":"¾çÇé","value":[{"n":"È«²¿","v":""},{"n":"¶¯»­","v":"/donghua"},{"n":"ÈÕÂş","v":"/riman"},{"n":"¹úÂş","v":"/guoman"},{"n":"ÃÀÂş","v":"/meiman"}]}],"qita":[{"key":"class","name":"¾çÇé","value":[{"n":"È«²¿","v":""},{"n":"¼ÇÂ¼Æ¬","v":"/Jlp"},{"n":"¾­µäÆ¬","v":"/Jdp"},{"n":"¾­µä¾ç","v":"/Jdj"},{"n":"Íø´óµçÓ°","v":"/wlp"},{"n":"¹ú²úÀÏµçÓ°","v":"/laodianying"}]}]},
+    filter: {"Movie":[{"key":"class","name":"å‰§æƒ…","value":[{"n":"å…¨éƒ¨","v":""},{"n":"å–œå‰§ç‰‡","v":"/xjp"},{"n":"åŠ¨ä½œç‰‡","v":"/dzp"},{"n":"çˆ±æƒ…ç‰‡","v":"/aqp"},{"n":"ç§‘å¹»ç‰‡","v":"/khp"},{"n":"ææ€–ç‰‡","v":"/kbp"},{"n":"æƒŠæ‚šç‰‡","v":"/jsp"},{"n":"æˆ˜äº‰ç‰‡","v":"/zzp"},{"n":"å‰§æƒ…ç‰‡","v":"/jqp"}]}],"Tv":[{"key":"class","name":"å‰§æƒ…","value":[{"n":"å…¨éƒ¨","v":""},{"n":"ç¾å‰§","v":"/oumei"},{"n":"éŸ©å‰§","v":"/hanju"},{"n":"æ—¥å‰§","v":"/riju"},{"n":"æ³°å‰§","v":"/yataiju"},{"n":"ç½‘å‰§","v":"/wangju"},{"n":"å°å‰§","v":"/taiju"},{"n":"å›½äº§","v":"/neidi"},{"n":"æ¸¯å‰§","v":"/tvbgj"},{"n":"è‹±å‰§","v":"/yingju"}]}],"Zy":[{"key":"class","name":"å‰§æƒ…","value":[{"n":"å…¨éƒ¨","v":""},{"n":"å›½ç»¼","v":"/guozong"},{"n":"éŸ©ç»¼","v":"/hanzong"},{"n":"ç¾ç»¼","v":"/meizong"}]}],"Dm":[{"key":"class","name":"å‰§æƒ…","value":[{"n":"å…¨éƒ¨","v":""},{"n":"åŠ¨ç”»","v":"/donghua"},{"n":"æ—¥æ¼«","v":"/riman"},{"n":"å›½æ¼«","v":"/guoman"},{"n":"ç¾æ¼«","v":"/meiman"}]}],"qita":[{"key":"class","name":"å‰§æƒ…","value":[{"n":"å…¨éƒ¨","v":""},{"n":"è®°å½•ç‰‡","v":"/Jlp"},{"n":"ç»å…¸ç‰‡","v":"/Jdp"},{"n":"ç»å…¸å‰§","v":"/Jdj"},{"n":"ç½‘å¤§ç”µå½±","v":"/wlp"},{"n":"å›½äº§è€ç”µå½±","v":"/laodianying"}]}]},
     searchUrl:'/search.php?searchword=**',
-    searchable:2,//ÊÇ·ñÆôÓÃÈ«¾ÖËÑË÷,
-    quickSearch:0,//ÊÇ·ñÆôÓÃ¿ìËÙËÑË÷,
+    searchable:2,//æ˜¯å¦å¯ç”¨å…¨å±€æœç´¢,
+    quickSearch:0,//æ˜¯å¦å¯ç”¨å¿«é€Ÿæœç´¢,
     headers:{
         'User-Agent':'PC_UA',
     },
     class_parse:'.mr-auto li:gt(0):lt(6);a&&Text;a&&href;/(\\w+)/index.html',
-    //class_name:'µçÓ°&µçÊÓ¾ç&×ÛÒÕ&¶¯Âş&ÆäËû',
-    //class_url:'Movie&Tv&Zy&Dm&qita',
+    // class_name:'ç”µå½±&ç”µè§†å‰§&ç»¼è‰º&åŠ¨æ¼«&å…¶ä»–',
+    // class_url:'Movie&Tv&Zy&Dm&qita',
     play_parse:true,
     lazy:'',
     limit:6,
-    ÍÆ¼ö:'*',
-    Ò»¼¶:'.threadlist .trans_3;.title&&Text;.lazy&&src;.hdtag&&Text;a&&href',
-    ¶ş¼¶:{
+    æ¨è:'*',
+    ä¸€çº§:'.threadlist .trans_3;.title&&Text;.lazy&&src;.hdtag&&Text;a&&href',
+    äºŒçº§:{
         "title":".cover a&&title;.message p:eq(7)&&Text",
         "img":".cover img&&src",
         "desc":".w-100&&Text;.message p:eq(10)&&Text;.message p:eq(9)&&Text;.message p:eq(6)&&Text;.message p:eq(4)&&Text",
         "content":".message p:eq(-1)&&Text",
         "tabs":"#player_list h2",
-		"tab_text":"h2--span&&Text",
+        "tab_text":"h2--span&&Text",
         "lists":"#player_list:eq(#id) li"
     },
-    ËÑË÷:'.card-body .media;.text-danger&&Text;;.data&&Text;a&&href',
+    æœç´¢:'.card-body .media;.text-danger&&Text;;.data&&Text;a&&href',
 }
