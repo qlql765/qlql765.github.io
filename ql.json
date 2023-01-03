@@ -46,12 +46,12 @@
 {"key":"幼儿",   "name":" 📚幼儿乐园","type":3,"api":"csp_Bili",  "searchable":0,"quickSearch":0,"filterable":1,"ext":"https://cf.qlql.cc/bili/幼儿乐园.json"},
 {"key":"Gitcafe","name":" 📜小纸条 ",  "type":3,"api": "csp_Paper","searchable":1,"quickSearch":1,"filterable":1,"ext": "http://ali.饭太硬.ml/tok"},
 
-{"key":"Cokemv","name":"🇨Cokemv","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"b88de1329655cca1beba45aa9776de70","jar":"https://cf.qlql.cc/jar/pdr1217.jar;md5;F91CCC935879EAB565EDC27B5DC53416"},
-{"key":"世界杯","name":"👫一起看","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8e3aefcba838d8dc5102ac786719d837","jar":"https://cf.qlql.cc/jar/pdr1217.jar;md5;F91CCC935879EAB565EDC27B5DC53416"},
-{"key":"Ikan","name": " 💖爱看","type": 3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a4ce9a4ba7d4f4bced2ff9dfc4ab4e50","jar":"https://cf.qlql.cc/jar/pdr1217.jar;md5;F91CCC935879EAB565EDC27B5DC53416"},
-{"key":"Yanet","name":"🦆鸭奶飞","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"a369b1f623fe86605f1b029f0cf66349","jar":"https://cf.qlql.cc/jar/pdr1217.jar;md5;F91CCC935879EAB565EDC27B5DC53416"},
-{"key":"Hei","name":"🌰石榴","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"3bff500c8b1e06c052a1b0f1f7a62b45","jar":"https://cf.qlql.cc/jar/pdr1217.jar;md5;F91CCC935879EAB565EDC27B5DC53416"},
-{"key":"Czsapp","name":"📔厂长","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8ee655f702d0d21f3643504783babbc3","jar":"https://cf.qlql.cc/jar/pdr1217.jar;md5;F91CCC935879EAB565EDC27B5DC53416"},
+{"key":"Cokemv","name":"🇨Cokemv","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"b88de1329655cca1beba45aa9776de70","jar":"https://cf.qlql.cc/jar/pdr1228.jar;md5;97EE205764C3C737804F48F97B3F7BE6"},
+{"key":"世界杯","name":"👫一起看","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8e3aefcba838d8dc5102ac786719d837","jar":"https://cf.qlql.cc/jar/pdr1228.jar;md5;97EE205764C3C737804F48F97B3F7BE6"},
+{"key":"Ikan","name": " 💖爱看","type": 3,"api":"csp_Dora","searchable":1,"quickSearch":1,"filterable":1,"ext":"a4ce9a4ba7d4f4bced2ff9dfc4ab4e50","jar":"https://cf.qlql.cc/jar/pdr1228.jar;md5;97EE205764C3C737804F48F97B3F7BE6"},
+{"key":"Yanet","name":"🦆鸭奶飞","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"a369b1f623fe86605f1b029f0cf66349","jar":"https://cf.qlql.cc/jar/pdr1228.jar;md5;97EE205764C3C737804F48F97B3F7BE6"},
+{"key":"Hei","name":"🌰石榴","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"3bff500c8b1e06c052a1b0f1f7a62b45","jar":"https://cf.qlql.cc/jar/pdr1228.jar;md5;97EE205764C3C737804F48F97B3F7BE6"},
+{"key":"Czsapp","name":"📔厂长","type":"3","api":"csp_Dora","searchable":"1","quickSearch":"1","filterable":"1","ext":"8ee655f702d0d21f3643504783babbc3","jar":"https://cf.qlql.cc/jar/pdr1228.jar;md5;97EE205764C3C737804F48F97B3F7BE6"},
 
 {"key":"drpy_js_AB影院[飞]","name":" AB影院[js]","type":3,"api":"https://cf.qlql.cc/js/libs/drpy2.min.js","ext":"https://cf.qlql.cc/js/js/AB影院[飞].js"},
 
