@@ -9,6 +9,7 @@
          {"name": "APTV直播","type": 0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"},
          {"name": "范明明直播","type": 0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"},
          {"name": "ZhangHongGuang直播","type": 0,"url":"https://zhanghongguang.github.io/IPV6_IPTV.m3u"},
+         {"name": "肥羊百事通直播","type": 0,"url":"https://ghproxy.com/https://raw.githubusercontent.com/youshandefeiyang/IPTV/main/main/bestv.m3u"},
          {"group":"redirect","channels":[{"name":"月光宝盒","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9jZi5xbHFsLmNjL2xpdmUveWdiaC50eHQ="]}]}],
     
 //背景图片
